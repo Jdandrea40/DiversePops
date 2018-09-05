@@ -39,6 +39,22 @@
             }
         },
         {
+            "Key": "094cc487-b1e7-4c6f-a899-26dc584b14cf",
+            "Value": {
+                "id": "9605adb3-1575-4c33-838b-74821733ba93",
+                "resourcePath": "sprites\\spr_textBox\\spr_textBox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "0be40693-02a3-4f70-a79c-c7f76a22007c",
+            "Value": {
+                "id": "d5c0bbab-c14a-409f-b93a-db95da2cee42",
+                "resourcePath": "objects\\obj_exit\\obj_exit.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0df2f993-9a6c-46d5-9245-5342b505c3fd",
             "Value": {
                 "id": "2b22f687-3636-49ed-b8a6-1d1a05e9e214",
@@ -92,6 +108,22 @@
                 "id": "8a1e468f-e6b1-4d70-8f43-7af0c55db34e",
                 "resourcePath": "views\\39b3bb0d-8589-47a6-933b-fa9a79ce932d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "49de2a78-8e13-4d7a-b627-f6445a04f549",
+            "Value": {
+                "id": "d9e805b9-7a6c-45c6-88cc-af64beb942c1",
+                "resourcePath": "sprites\\spr_invis\\spr_invis.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4d549b42-cfef-4cc0-9d7b-c0ac2add6308",
+            "Value": {
+                "id": "fa53bd9e-f91b-4d39-8bfe-29f11c394faa",
+                "resourcePath": "objects\\obj_textBox\\obj_textBox.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -180,6 +212,14 @@
                 "id": "21d56cb4-cc37-4571-9918-894a11e65c2e",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d4a67a64-def0-4015-84c3-cbbb5fcc3bdf",
+            "Value": {
+                "id": "f6c5db32-6663-42bd-8d4f-57c8900fbf22",
+                "resourcePath": "sprites\\spr_exit\\spr_exit.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

@@ -17,6 +17,7 @@ if (keyboard_check(ord("D")))
 	x = x + 4;
 }
 
+image_angle = point_direction(x,y,mouse_x,mouse_y);
 
 // echo creation
 if (keyboard_check_pressed(vk_space)) && (cooldown < 1)
