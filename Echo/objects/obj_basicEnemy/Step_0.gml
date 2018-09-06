@@ -1,4 +1,4 @@
-var range = 40
+var range = 80;
 
 if (instance_exists(obj_player1) && distance_to_object(obj_player1) < range)
 {
@@ -7,7 +7,7 @@ if (instance_exists(obj_player1) && distance_to_object(obj_player1) < range)
 }
 if (distance_to_object(obj_player1) > range)
 {
-	spd = 0;	
+	speed = 0;	
 }
 image_angle = direction;
  if (revealedTime <= 0)

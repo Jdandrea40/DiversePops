@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "3483ee84-e8fd-4c65-8d8a-64d9a7b36d04",
+            "Value": {
+                "id": "61341db5-cde9-491d-aabe-f0944dda6b65",
+                "resourcePath": "objects\\obj_Lose\\obj_Lose.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "39b3bb0d-8589-47a6-933b-fa9a79ce932d",
             "Value": {
                 "id": "8a1e468f-e6b1-4d70-8f43-7af0c55db34e",
@@ -172,6 +180,14 @@
                 "id": "fa53bd9e-f91b-4d39-8bfe-29f11c394faa",
                 "resourcePath": "objects\\obj_textBox\\obj_textBox.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "52ce8157-9990-42ea-97cd-96a37d451f7c",
+            "Value": {
+                "id": "f77b61b5-6fbf-4ec7-b7a3-bb0b6f4b7406",
+                "resourcePath": "rooms\\rm_Lose\\rm_Lose.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -247,6 +263,14 @@
             }
         },
         {
+            "Key": "8fad7b7c-b2f2-4d0e-8806-afb1dbc7b621",
+            "Value": {
+                "id": "832dcee8-13ff-4cff-b116-9c99eb890492",
+                "resourcePath": "sprites\\spr_winner\\spr_winner.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "927c4234-5920-4a4a-9e96-809b33d82f0d",
             "Value": {
                 "id": "addf5bb6-b6a8-4f2d-9596-2a709bdc32d5",
@@ -271,6 +295,14 @@
             }
         },
         {
+            "Key": "a3bafc96-12bf-451d-95eb-00832600518e",
+            "Value": {
+                "id": "e5254915-7bf0-4304-9d22-83350e86524a",
+                "resourcePath": "objects\\obj_winner\\obj_winner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "8cf6e2b8-8e78-4eb9-8893-4f78c3213725",
@@ -282,7 +314,15 @@
             "Key": "bdbbfc60-bd06-4cf8-b02c-df85247ea9f3",
             "Value": {
                 "id": "c7c1d9d3-c990-4d1f-a052-d97984791f8e",
-                "resourcePath": "sprites\\spr_Help\\spr_Help.yy",
+                "resourcePath": "sprites\\spr_helpScreen\\spr_helpScreen.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c8cf9a05-2533-4b6a-95d1-e8c5109e922d",
+            "Value": {
+                "id": "d2c92712-332a-4300-acb1-1e21880b2712",
+                "resourcePath": "sprites\\spr_loser\\spr_loser.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -300,6 +340,14 @@
                 "id": "21d56cb4-cc37-4571-9918-894a11e65c2e",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d07bf91d-8406-462e-86ea-2907d5a4d1c0",
+            "Value": {
+                "id": "74203d7d-e8e2-4a73-b682-1c6dcd458b14",
+                "resourcePath": "rooms\\rm_Win\\rm_Win.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
