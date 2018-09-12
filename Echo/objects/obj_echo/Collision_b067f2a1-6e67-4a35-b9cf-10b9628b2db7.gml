@@ -1,7 +1,7 @@
 with (other)
 {
 	spd = 1;
-	sprite_index = spr_basicEnemy;
+	visible = true
 	//enemyReveal = true;
 	revealedTime = 100;
 }
