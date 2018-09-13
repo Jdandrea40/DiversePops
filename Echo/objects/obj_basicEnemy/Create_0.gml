@@ -7,6 +7,7 @@ enum states
 	invisMove
 }
 
+
 visible = false;
 
 // array of sparite changed

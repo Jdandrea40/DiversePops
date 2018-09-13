@@ -24,7 +24,7 @@ if (instance_exists(obj_player1) && distance_to_object(obj_player1) < alertRange
 
 
 // State Functions
-
+// Alert State
 if (state = states.alert)
 {
 	spd = .5
@@ -43,6 +43,8 @@ if (state = states.alert)
 	sprite_index = sprites_array[states.invisMove]	
 }
 }
+
+// Attack State
 else if (state = states.attack)
 {
 	spd = 1.5;
@@ -57,6 +59,8 @@ else if (state = states.attack)
 	sprite_index = sprites_array[states.invisMove]	
 }
 }
+
+// Idle State
 else
 {
 	state = states.idle;
