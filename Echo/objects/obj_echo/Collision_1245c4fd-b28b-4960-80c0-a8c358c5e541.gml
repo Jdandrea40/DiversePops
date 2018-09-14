@@ -1,5 +1,7 @@
 with (other)
 {
 	visible = true
-	revealedTime = 100;
+	coopWallVis = 100;
+
 }
+

@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "0ff10098-195f-45f4-8fe9-693fd2b81f1c",
+            "Value": {
+                "id": "df8ec4c1-ad99-43ef-9156-544859a3ee53",
+                "resourcePath": "objects\\obj_stunShot\\obj_stunShot.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1716aea2-8cda-4b1b-82ca-895708d1ba79",
             "Value": {
                 "id": "9bb79673-cfb3-4a4a-ae6f-a7eddcf03d09",
@@ -116,6 +124,14 @@
                 "id": "26719755-451e-4637-8708-f7c7ebb587e7",
                 "resourcePath": "views\\26859c7d-ca09-4ffe-99a0-dbf7fb1f067e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "29ca5679-f748-46af-a7d5-3ee3da37ca7c",
+            "Value": {
+                "id": "1790cf5a-84ff-45d5-be15-16147e85a770",
+                "resourcePath": "sprites\\spr_stunShot\\spr_stunShot.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -228,14 +244,6 @@
                 "id": "bb202950-cc7a-4769-8d4c-c5c0a4bbc49d",
                 "resourcePath": "rooms\\rm_MenuScreen\\rm_MenuScreen.yy",
                 "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "54ee9fd8-3bac-496a-baec-dc72a18ab73a",
-            "Value": {
-                "id": "12ed7dd5-a461-4cb0-a57d-cc92b29ca532",
-                "resourcePath": "objects\\obj_invisParent\\obj_invisParent.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -407,14 +415,6 @@
             }
         },
         {
-            "Key": "ac207df3-1683-4362-92a5-0a79babada71",
-            "Value": {
-                "id": "88a47342-6ac6-4e18-938e-db27dc45f437",
-                "resourcePath": "objects\\obj_player1Spawner\\obj_player1Spawner.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "bdbbfc60-bd06-4cf8-b02c-df85247ea9f3",
             "Value": {
                 "id": "c7c1d9d3-c990-4d1f-a052-d97984791f8e",
@@ -460,6 +460,22 @@
                 "id": "21d56cb4-cc37-4571-9918-894a11e65c2e",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "ce510a6e-c66d-455b-ab92-c44a998f5e92",
+            "Value": {
+                "id": "9a0d1b18-45d5-486d-ab6d-2ae03de05925",
+                "resourcePath": "objects\\obj_player2\\obj_player2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "cee31de9-c790-44f7-a6b9-bcc2d0bbfa45",
+            "Value": {
+                "id": "ae4a2b2d-5777-4fd9-adad-fa1e0d2dff90",
+                "resourcePath": "rooms\\rm_CoOp\\rm_CoOp.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -515,6 +531,14 @@
             "Value": {
                 "id": "6e45eb64-9b09-4663-8a4e-440f35a06e67",
                 "resourcePath": "sprites\\spr_backButton\\spr_backButton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e162c773-e60d-4610-9f75-b7b41670eb5f",
+            "Value": {
+                "id": "e47bd4cf-a439-41a3-93f3-ea67fe37236d",
+                "resourcePath": "sprites\\spr_player2\\spr_player2.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -575,6 +599,14 @@
             }
         },
         {
+            "Key": "f2acf879-8d72-4345-9493-73446dc57f8c",
+            "Value": {
+                "id": "2dd519fd-87f8-4814-9745-b920da900c94",
+                "resourcePath": "sprites\\spr_coopWalls\\spr_coopWalls.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "02cfca20-2f33-4730-aa91-5b5654ea5f01",
@@ -588,6 +620,14 @@
                 "id": "96eea8ae-adcd-4a29-8031-ce3d68d72a9c",
                 "resourcePath": "views\\f640f773-5dba-432d-af8d-fc3c5be773d6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fada9761-5e77-491d-a9ae-05b743508455",
+            "Value": {
+                "id": "3af22422-01e3-44fc-8ae1-8f24a55a939f",
+                "resourcePath": "objects\\obj_coopWalls\\obj_coopWalls.yy",
+                "resourceType": "GMObject"
             }
         }
     ],
