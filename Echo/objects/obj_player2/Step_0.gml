@@ -20,7 +20,7 @@ if (keyboard_check(vk_right) && place_free(x + player2Spd, y))
 image_angle = point_direction(x,y,mouse_x,mouse_y);
 
 // echo creation
-if (mouse_check_button(mb_right)) && (p2Cooldown < 1)
+if (mouse_check_button(mb_left)) && (p2Cooldown < 1)
 {
 	instance_create_layer(x,y,"Instances",obj_stunShot);
 	p2Cooldown = 100;
