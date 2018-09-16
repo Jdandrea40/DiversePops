@@ -12,7 +12,3 @@ if(global.chestDestroyTimer > 0)
 {
 	global.chestDestroyTimer = global.chestDestroyTimer - 1;	
 }
-//if (global.chestDestroyTimer < 1)
-//{
-//	instance_destroy();	
-//}

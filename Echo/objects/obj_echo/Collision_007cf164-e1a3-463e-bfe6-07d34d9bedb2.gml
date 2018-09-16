@@ -2,5 +2,10 @@ with (other)
 {
 	visible = true
 	revealedTime = 100;
-	enemyInvisible = false;
+
+	if (global.enemyDiscovered = false)
+	{
+		global.enemyDiscovered = true;
+		global.enemies = global.enemies + 1;
+	}
 }

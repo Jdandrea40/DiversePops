@@ -1,4 +1,4 @@
-if ( global.points >= chestCount)
+if ( global.chests >= chestCount)
 {
 	global.chestAchieve = true;	
 }

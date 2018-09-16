@@ -21,4 +21,4 @@ sprites_array[Estates.invisMove] = spr_basicEnemyEcho;
 revealedTime = 0;
 enemyInvisible = true;
 
-eStunned = 0;
+global.enemyDiscovered = false;
