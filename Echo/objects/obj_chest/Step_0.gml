@@ -1,8 +1,18 @@
-if (chestVisDur <= 0)
+if (visible = true)
 {
-	visible = false;	
+	global.chestVisDur = global.chestVisDur - 1;	 
 }
-if (chestVisDur > 0)
+
+if (global.chestVisDur > 0)
 {
-	chestVisDur = chestVisDur - 1;	
+	global.chestVisDur = global.chestVisDur - 1;	
 }
+
+if(global.chestDestroyTimer > 0)
+{
+	global.chestDestroyTimer = global.chestDestroyTimer - 1;	
+}
+//if (global.chestDestroyTimer < 1)
+//{
+//	instance_destroy();	
+//}

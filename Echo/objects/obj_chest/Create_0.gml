@@ -1,2 +1,3 @@
 visible = false;
-chestVisDur = 0;
+global.chestVisDur = 0;
+global.chestDestroyTimer = 0;

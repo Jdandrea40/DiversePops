@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "22631b2e-2270-453b-b572-245276168f3b",
+            "Value": {
+                "id": "6e772412-84cd-4d17-b3aa-2ebe39708b3e",
+                "resourcePath": "objects\\obj_gameController\\obj_gameController.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "247e4595-3dc0-4c1e-8fa5-72be088c23b9",
             "Value": {
                 "id": "43da7407-37f7-43b1-9f53-bbc4aa3c9fde",
@@ -242,7 +250,7 @@
             "Key": "4d549b42-cfef-4cc0-9d7b-c0ac2add6308",
             "Value": {
                 "id": "fa53bd9e-f91b-4d39-8bfe-29f11c394faa",
-                "resourcePath": "objects\\obj_textBox\\obj_textBox.yy",
+                "resourcePath": "objects\\obj_achievementBox\\obj_achievementBox.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -455,11 +463,27 @@
             }
         },
         {
+            "Key": "a4c54e39-1fd4-48ca-9cc5-25c8925809e9",
+            "Value": {
+                "id": "8c9cf3b8-9dce-4a1f-a04f-bed72a0dd471",
+                "resourcePath": "sprites\\spr_achievementBox\\spr_achievementBox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "8cf6e2b8-8e78-4eb9-8893-4f78c3213725",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "b0b1bbd7-e901-4564-aaee-f98ca1374dca",
+            "Value": {
+                "id": "041ce213-fad5-4c1a-8ef5-4e41b9276894",
+                "resourcePath": "rooms\\rm_PvP\\rm_PvP.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
