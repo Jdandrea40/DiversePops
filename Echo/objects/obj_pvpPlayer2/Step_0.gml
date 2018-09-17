@@ -32,5 +32,13 @@ else
 	visible = false;	
 }
 
+// echo creation
+if (keyboard_check_pressed(vk_shift)) && (pvp2Cooldown < 1)
+{
+	instance_create_layer(x,y,"Instances",obj_enemyEcho);
+	pvp2Cooldown = 100;
+}
+pvp2Cooldown = pvp2Cooldown - 1;
+
 
 

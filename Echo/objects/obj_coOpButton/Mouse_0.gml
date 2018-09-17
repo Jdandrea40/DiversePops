@@ -1,1 +1,1 @@
-room_goto(rm_CoOp);
+room_goto(rm_CoOpHelp);

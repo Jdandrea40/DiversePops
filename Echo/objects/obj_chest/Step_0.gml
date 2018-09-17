@@ -1,14 +1,14 @@
 if (visible = true)
 {
-	global.chestVisDur = global.chestVisDur - 1;	 
+	chestVisDur = chestVisDur - 1;	 
 }
 
-if (global.chestVisDur > 0)
+if (chestVisDur > 0)
 {
-	global.chestVisDur = global.chestVisDur - 1;	
+	chestVisDur = chestVisDur - 1;	
 }
 
-if(global.chestDestroyTimer > 0)
+if(chestVisDur < 1)
 {
-	global.chestDestroyTimer = global.chestDestroyTimer - 1;	
+	visible = false;	
 }
