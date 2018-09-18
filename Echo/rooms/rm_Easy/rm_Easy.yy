@@ -1,6 +1,6 @@
 
 {
-    "name": "rm_Level1",
+    "name": "rm_Easy",
     "id": "e45017fe-5194-4e66-8be9-c8330fcc2364",
     "creationCodeFile": "",
     "inheritCode": false,
