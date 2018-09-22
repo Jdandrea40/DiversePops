@@ -1,6 +1,6 @@
-shockLifeTime = shockLifeTime - 1;
+stunLifeTime = stunLifeTime - 1;
 
-if (shockLifeTime <= 0)
+if (stunLifeTime <= 0)
 {
 	instance_destroy();	
 }

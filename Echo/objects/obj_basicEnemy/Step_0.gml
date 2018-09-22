@@ -4,8 +4,6 @@ var attackRange = 70
 var spd = 0;
 
 
-
-
 if (enemyInvisible = true && speed > 0)
 {
 	sprite_index = sprites_array[Estates.invisMove];
@@ -13,19 +11,23 @@ if (enemyInvisible = true && speed > 0)
 }
 
 // State Switching
-if (instance_exists(obj_player1) && distance_to_object(obj_player1) <= alertRange)
+if (instance_exists(obj_player1) && global.eStunned = true)
+{
+	 state = Estates.stunned;
+}
+if (instance_exists(obj_player1) && distance_to_object(obj_player1) <= alertRange && global.eStunned = false)
 {
 	state = Estates.alert;
 }
-if (instance_exists(obj_player1) && distance_to_object(obj_player1) <= attackRange)
+if (instance_exists(obj_player1) && distance_to_object(obj_player1) <= attackRange && global.eStunned = false )
 {
 	state = Estates.attack
 }
-if (instance_exists(obj_player1) && distance_to_object(obj_player1) > alertRange)
+if (instance_exists(obj_player1) && distance_to_object(obj_player1) > alertRange && global.eStunned = false)
 {
 	state = Estates.idle;
 }
-if (instance_exists(obj_player1) && distance_to_object(obj_player1) < alertRange && visible = false)
+if (instance_exists(obj_player1) && distance_to_object(obj_player1) < alertRange && visible = false && global.eStunned = false)
 {
 	state = Estates.invisMove;	
 }
@@ -33,8 +35,27 @@ if (instance_exists(obj_player1) && distance_to_object(obj_player1) < alertRange
 
 
 // State Functions
+// Stunned State
+if (state = Estates.stunned)
+{
+	speed = 0;
+	sprite_index = sprites_array[Estates.stunned];
+	if (enemyStunTimer > 0)
+	{
+		visible = true;
+		enemyStunTimer = enemyStunTimer - 1;
+
+	}
+	else if (enemyStunTimer < 1)
+	{
+		global.eStunned = false;
+		enemyStunTimer = 0;
+	}
+
+
+}
 // Alert State
-if (state = Estates.alert && state != Estates.stunned)
+if (state = Estates.alert)
 {
 	spd = .5
 	sprite_index = sprites_array[Estates.alert]
@@ -54,7 +75,7 @@ if (state = Estates.alert && state != Estates.stunned)
 }
 
 // Attack State
-else if (state = Estates.attack && state != Estates.stunned)
+if (state = Estates.attack)
 {
 	spd = 1.5;
 	sprite_index = sprites_array[Estates.attack];
@@ -64,18 +85,10 @@ else if (state = Estates.attack && state != Estates.stunned)
 	inst = instance_nearest(x, y, obj_basicEnemy);
 	mp_potential_step(obj_player1.x, obj_player1.y, spd, false);
 }
-else if (state = Estates.stunned)
-{
-	eStunned = eStunned - 1;
-	if (eStunned < 1)
-	{
-		state = Estates.idle;	
-	}
-}
 // Idle State
-else
+if(state = Estates.idle)
 {
-	state = Estates.idle;
+	//state = Estates.idle;
 	sprite_index = sprites_array[Estates.idle]
 	speed = 0
 }
@@ -93,4 +106,16 @@ if (revealedTime <= 0)
 if (visible = true)
 {
 	revealedTime = revealedTime - 1;	 
+}
+
+/*if (enemyStunTimer > 0)
+{
+	visible = true;
+	enemyStunTimer = enemyStunTimer - 1;
+
+}
+if (enemyStunTimer < 1)
+{
+	global.eStunned = false;
+	enemyStunTimer = 0;
 }

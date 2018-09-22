@@ -20,12 +20,20 @@ if (keyboard_check(ord("D")) && place_free(x + playerSpd, y))
 image_angle = point_direction(x,y,mouse_x,mouse_y);
 
 // echo creation
-if (keyboard_check_pressed(vk_space)) && (cooldown < 1)
+if (keyboard_check_pressed(vk_space)) && (echoCooldown < 1)
 {
 	instance_create_layer(x,y,"Instances",obj_echo);
-	cooldown = 100;
+	echoCooldown = 100;
 }
-cooldown = cooldown - 1;
+echoCooldown = echoCooldown - 1;
+
+// killShot creation
+if (mouse_check_button(mb_left)) && (stunCooldown< 1)
+{
+	instance_create_layer(x,y,"Instances",obj_stunShot);
+	stunCooldown = 100;
+}
+stunCooldown = stunCooldown - 1;
 
 
 
