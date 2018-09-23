@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "1615fc2e-1f66-4a18-b1cc-72e6da36dba7",
+            "Value": {
+                "id": "c156bcf3-7696-4f92-86a3-c66036865b01",
+                "resourcePath": "objects\\obj_puzzlesButton\\obj_puzzlesButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1716aea2-8cda-4b1b-82ca-895708d1ba79",
             "Value": {
                 "id": "9bb79673-cfb3-4a4a-ae6f-a7eddcf03d09",
@@ -220,6 +228,14 @@
                 "id": "050d5092-5f6c-48bc-baf2-1074b8ae0d8e",
                 "resourcePath": "sprites\\spr_wall\\spr_wall.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2147886c-68b0-4e8c-aa1f-d0628d2bdc8a",
+            "Value": {
+                "id": "4df6c5e7-ac5a-4f97-a80c-6f71f814b89f",
+                "resourcePath": "objects\\obj_mediumSolutionButton\\obj_mediumSolutionButton.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -308,6 +324,14 @@
                 "id": "5cd88fc0-1b2a-4d2a-a2e7-8675d087b405",
                 "resourcePath": "sprites\\spr_hardSolution\\spr_hardSolution.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2c6d244f-8cd3-49dd-bba3-ecc5e2b2026f",
+            "Value": {
+                "id": "2c2e6c57-817b-4694-8c9c-a7cdac39b348",
+                "resourcePath": "rooms\\rm_Assets\\rm_Assets.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -535,6 +559,14 @@
             }
         },
         {
+            "Key": "5771db7b-2b22-4c6f-9762-a70dee133f76",
+            "Value": {
+                "id": "df1a1ad6-cce0-4800-8aeb-7248cdf8026d",
+                "resourcePath": "objects\\obj_solutionDescription\\obj_solutionDescription.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "58950146-a416-477d-b28d-677692d5020e",
             "Value": {
                 "id": "1f6892cf-a3c2-4c8e-9b05-55c92ffa9fd2",
@@ -556,6 +588,14 @@
                 "id": "30eeb2fe-2f1c-452c-9d0e-6a01fd3823e9",
                 "resourcePath": "views\\5899b10e-d1e1-41ad-a2bf-8f78e77aef48.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5c504f1a-169a-4af8-8879-4258bc3ed4d6",
+            "Value": {
+                "id": "23e40afb-0477-45e8-bd10-bbbb5d8412bd",
+                "resourcePath": "sprites\\spr_hardSolutionButton\\spr_hardSolutionButton.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -807,6 +847,14 @@
             }
         },
         {
+            "Key": "8a92a7bf-d2fe-4cfd-98ce-ffa89a7f22e9",
+            "Value": {
+                "id": "05c28d7a-be26-4c31-871d-00ecfe93cddd",
+                "resourcePath": "sprites\\spr_puzzleButton\\spr_puzzleButton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8e65bd42-e16e-4ebc-a093-d471bd680439",
             "Value": {
                 "id": "d1187d86-211b-4832-bc53-9c42c0dff8e6",
@@ -935,11 +983,27 @@
             }
         },
         {
+            "Key": "a617227a-ecea-4af4-9216-3ab59c6a9fd2",
+            "Value": {
+                "id": "4d640a06-d582-4451-99d7-b90b50552482",
+                "resourcePath": "sprites\\spr_assetsButton\\spr_assetsButton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a6d7c3e8-33dc-40a3-8e6d-b92af82824a2",
             "Value": {
                 "id": "e5768ad4-bdd9-47cf-9860-83518ea0dda6",
                 "resourcePath": "objects\\obj_chestSpawner\\obj_chestSpawner.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a6dc202f-e19d-4cb6-bcaa-09205a823554",
+            "Value": {
+                "id": "5d68e73f-1615-4e42-9e92-79087e47e16b",
+                "resourcePath": "sprites\\spr_assetsText\\spr_assetsText.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1239,6 +1303,14 @@
             }
         },
         {
+            "Key": "d43a5d9c-f287-4c58-9932-45185fac6ed6",
+            "Value": {
+                "id": "11f28135-358a-4a0e-a51c-45022b3fe7d0",
+                "resourcePath": "sprites\\spr_SolutionDescript\\spr_SolutionDescript.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d4a67a64-def0-4015-84c3-cbbb5fcc3bdf",
             "Value": {
                 "id": "f6c5db32-6663-42bd-8d4f-57c8900fbf22",
@@ -1383,6 +1455,14 @@
             }
         },
         {
+            "Key": "e83c2063-f353-41a6-ab60-5ff26ea971ff",
+            "Value": {
+                "id": "592b332d-7490-434a-9b50-f3ce0435fb2d",
+                "resourcePath": "objects\\obj_hardSolutionButton\\obj_hardSolutionButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ec887bb9-b33a-4c33-871a-cf87723fe047",
             "Value": {
                 "id": "9c18f674-a33f-4fad-8454-c03126b01afb",
@@ -1447,6 +1527,22 @@
             }
         },
         {
+            "Key": "f4ca856e-523f-4d7d-ba85-ce08169f8bf1",
+            "Value": {
+                "id": "fa7cfe2e-ac4c-4263-960b-d4a1f88a3ab6",
+                "resourcePath": "objects\\obj_assetsButton\\obj_assetsButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f58f237f-7d82-4442-923a-01d8622e66b3",
+            "Value": {
+                "id": "7871444d-d349-4602-8720-c382f4ee80a1",
+                "resourcePath": "objects\\obj_assetsText\\obj_assetsText.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f640f773-5dba-432d-af8d-fc3c5be773d6",
             "Value": {
                 "id": "96eea8ae-adcd-4a29-8031-ce3d68d72a9c",
@@ -1491,6 +1587,14 @@
             "Value": {
                 "id": "a53a1484-1c17-4d6d-9235-d49722039083",
                 "resourcePath": "sprites\\spr_pvpPlayer1_Right\\spr_pvpPlayer1_Right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fde03210-45be-4390-b34c-011292c2a32d",
+            "Value": {
+                "id": "6f03964e-805a-42c8-9650-0ef1013593b1",
+                "resourcePath": "sprites\\spr_mediumSolutionButton\\spr_mediumSolutionButton.yy",
                 "resourceType": "GMSprite"
             }
         },

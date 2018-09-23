@@ -22,7 +22,17 @@ image_angle = point_direction(x,y,mouse_x,mouse_y);
 // echo creation
 if (keyboard_check_pressed(vk_space)) && (echoCooldown < 1)
 {
-	audio_play_sound(sfx_fartEcho, 1, false);
+	// random sound choice
+	soundPick = random_range(1,5)
+	if (soundPick < 4 )
+	{
+		audio_play_sound(sfx_echoLocate, 1, false);	
+	}
+	else
+	{
+		audio_play_sound(sfx_fartEcho, 1, false);
+	}
+	
 	instance_create_layer(x,y,"Instances",obj_echo);
 	echoCooldown = 100;
 }

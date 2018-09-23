@@ -77,7 +77,7 @@ if (state = Estates.alert)
 // Attack State
 if (state = Estates.attack)
 {
-	spd = 1.5;
+	spd = 1.3;
 	sprite_index = sprites_array[Estates.attack];
 	
 	// causes enemies to not move through walls
