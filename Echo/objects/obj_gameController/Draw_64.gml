@@ -16,3 +16,5 @@ if(global.chestAchieve = true && chestAchieveActive = false)
 		text = "You've collected every chest!"
 	}
 }
+
+draw_text(64, 52, "Ammo Remaining: " + string (global.p1AmmoCount));
