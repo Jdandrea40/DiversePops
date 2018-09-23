@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "253dcd6e-42e7-4790-8adc-237c63e94840",
+            "Value": {
+                "id": "9859d99d-059a-4a21-b8fc-a07c34e5de4c",
+                "resourcePath": "objects\\obj_microTransParent\\obj_microTransParent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "25ddc08a-dccd-4e77-86a8-9cf0aeaf658b",
             "Value": {
                 "id": "883b44d5-df49-4f9f-ae3e-4250b2ce4c99",
@@ -567,6 +575,22 @@
             }
         },
         {
+            "Key": "5543210e-9f16-4fe7-bc25-089ef73ba14f",
+            "Value": {
+                "id": "842803e9-2acc-4c33-a092-31bfb7d215f9",
+                "resourcePath": "sprites\\spr_storeButton\\spr_storeButton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "55b6f7fd-ff86-472f-a08b-a7287168eaf9",
+            "Value": {
+                "id": "97b59fb1-0783-4cf3-b2bb-e1f4c758e259",
+                "resourcePath": "sprites\\spr_microTransBuyButton\\spr_microTransBuyButton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5771db7b-2b22-4c6f-9762-a70dee133f76",
             "Value": {
                 "id": "df1a1ad6-cce0-4800-8aeb-7248cdf8026d",
@@ -644,6 +668,14 @@
                 "id": "65543f3f-48c6-43bd-9949-6e27cded5954",
                 "resourcePath": "views\\60a0a426-2ebf-4248-b698-93f30193a3ef.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "684b0827-db0a-419c-94e0-f2cfca0155fe",
+            "Value": {
+                "id": "7edba0bd-2381-4169-9b51-d62655a47ac7",
+                "resourcePath": "objects\\obj_storeButton\\obj_storeButton.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -831,10 +863,26 @@
             }
         },
         {
+            "Key": "810eb0a3-9fca-470d-b081-410305a62d83",
+            "Value": {
+                "id": "e6657b5b-c2b7-4840-8c07-2d3e0a3bf737",
+                "resourcePath": "sprites\\spr_microTransSelectedButton\\spr_microTransSelectedButton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8219d42f-e2d4-4bb8-9bdc-e8a9f1188c1e",
             "Value": {
                 "id": "b163c9ec-0d8f-49f1-8077-1445b8d69c5f",
                 "resourcePath": "objects\\obj_player1\\obj_player1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "82fe38b6-37b2-4e4d-8bce-cd8fa4b66f56",
+            "Value": {
+                "id": "45dbd744-e93d-4fe2-8768-1a14cde7a5bf",
+                "resourcePath": "objects\\obj_bigBodySelectButton\\obj_bigBodySelectButton.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1343,6 +1391,14 @@
             }
         },
         {
+            "Key": "d6927828-a927-4890-9119-4d10134f1330",
+            "Value": {
+                "id": "a53e951c-dffb-40d4-b855-5a299c49bcec",
+                "resourcePath": "objects\\obj_smallBodySelectButton\\obj_smallBodySelectButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d6d323ca-e971-4988-84ba-e48ae82132fa",
             "Value": {
                 "id": "b19f98cc-08fa-4f05-82f3-be77612afffa",
@@ -1363,6 +1419,14 @@
             "Value": {
                 "id": "e46b1e69-1003-426a-8b87-8d4664b9ceb1",
                 "resourcePath": "sprites\\spr_player1\\spr_player1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d8878309-6877-46e7-86b6-c4154955fed8",
+            "Value": {
+                "id": "6df53dfa-8a62-4513-a084-2033433410c7",
+                "resourcePath": "sprites\\spr_microTransPurchasedButton\\spr_microTransPurchasedButton.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1420,6 +1484,14 @@
                 "id": "e47bd4cf-a439-41a3-93f3-ea67fe37236d",
                 "resourcePath": "sprites\\spr_player2\\spr_player2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e2690c33-e12d-4dea-9658-43227454fc3b",
+            "Value": {
+                "id": "5a053ef3-fc96-4bff-860a-4d76c2a2e2ac",
+                "resourcePath": "objects\\obj_normalPlayerSelectButton\\obj_normalPlayerSelectButton.yy",
+                "resourceType": "GMObject"
             }
         },
         {

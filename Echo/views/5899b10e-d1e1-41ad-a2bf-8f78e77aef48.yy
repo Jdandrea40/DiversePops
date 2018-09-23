@@ -13,7 +13,9 @@
         "045ffe64-08f1-4a40-98e5-d552ac6e6dbb",
         "b42d7e22-7ad6-44fc-83f8-0dd257e072fb",
         "bc7038e2-f2f2-4222-9ab6-46a059846916",
-        "70ef16fc-5fe9-4ca8-85a4-46ffdf2fe1a6"
+        "70ef16fc-5fe9-4ca8-85a4-46ffdf2fe1a6",
+        "a3ed83a1-204d-41d7-b822-4022bc8c5e97",
+        "bdedb1f4-e9c7-4fdb-9bc8-a52bb9fe4e20"
     ],
     "filterType": "GMObject",
     "folderName": "HelpIcons",
