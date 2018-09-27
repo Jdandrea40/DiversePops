@@ -1071,6 +1071,14 @@
             }
         },
         {
+            "Key": "a72a21a1-1d4c-4f9b-ad59-1c16619a7686",
+            "Value": {
+                "id": "6581a897-07de-49ac-ae6f-3345bc860e5b",
+                "resourcePath": "objects\\obj_mouseHover\\obj_mouseHover.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "8cf6e2b8-8e78-4eb9-8893-4f78c3213725",
@@ -1108,6 +1116,14 @@
                 "id": "041ce213-fad5-4c1a-8ef5-4e41b9276894",
                 "resourcePath": "rooms\\rm_PvP\\rm_PvP.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "b2fd9eb3-d1a1-4c29-8a4a-fed67e9b72d0",
+            "Value": {
+                "id": "ebc217f6-1bbd-4c8c-939e-272e8b7b4300",
+                "resourcePath": "sounds\\sfx_buttonClick\\sfx_buttonClick.yy",
+                "resourceType": "GMSound"
             }
         },
         {
