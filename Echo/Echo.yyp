@@ -479,6 +479,14 @@
             }
         },
         {
+            "Key": "42dfe663-e7cc-465d-b936-0e15e062cf31",
+            "Value": {
+                "id": "48faf91e-6021-4178-a373-7747ad03d317",
+                "resourcePath": "sprites\\spr_basicDead\\spr_basicDead.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "434ef748-b138-4690-abe1-996103b6ac37",
             "Value": {
                 "id": "539f8bce-cd37-46a0-95cf-59d60ca27ed2",
