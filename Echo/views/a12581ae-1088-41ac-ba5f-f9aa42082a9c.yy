@@ -13,7 +13,8 @@
         "69cd2576-1f15-487a-8be3-3654bdd3b5ce",
         "4acad3f0-7dd0-4929-84d5-46f6176aa270",
         "6b6de101-7043-4739-9b46-a015164e80b5",
-        "5771db7b-2b22-4c6f-9762-a70dee133f76"
+        "5771db7b-2b22-4c6f-9762-a70dee133f76",
+        "1746cb39-cea2-466c-a78e-9d1e7c2f0802"
     ],
     "filterType": "GMObject",
     "folderName": "Text",

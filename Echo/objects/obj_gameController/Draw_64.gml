@@ -18,3 +18,14 @@ if(global.chestAchieve = true && chestAchieveActive = false)
 }
 
 draw_text(64, 52, "Ammo Remaining: " + string (global.p1AmmoCount));
+if (global.p1AmmoCount < 1)
+{
+	draw_set_color(c_red)
+	draw_text(64, 52, "Ammo Remaining: " + string (global.p1AmmoCount));
+}
+else if (global.p1AmmoCount < 3)
+{
+	draw_set_color(c_yellow)
+	draw_text(64, 52, "Ammo Remaining: " + string (global.p1AmmoCount));
+}
+	

@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "1746cb39-cea2-466c-a78e-9d1e7c2f0802",
+            "Value": {
+                "id": "3da445f4-780a-4e07-8720-cb68dee54043",
+                "resourcePath": "objects\\obj_disabilityDescription\\obj_disabilityDescription.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1787d8a3-8d5a-4c9d-aeac-f0c11c224b58",
             "Value": {
                 "id": "77c3966c-5d35-41e9-ae95-8b16b323b4a8",
@@ -423,6 +431,14 @@
             }
         },
         {
+            "Key": "374a2ca2-d439-4df3-afcf-4adaf4c47fed",
+            "Value": {
+                "id": "9e7f6ef3-94d5-4798-8c16-872ab5d9783a",
+                "resourcePath": "rooms\\rm_DissabilityCredits\\rm_DissabilityCredits.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "38ff7df1-c1e3-425c-bb32-0ce40661e772",
             "Value": {
                 "id": "c7a027f3-826f-4da0-be70-214f11bcfd0c",
@@ -484,6 +500,14 @@
                 "id": "4f63515f-d6c0-46ea-95da-2bc4425250e9",
                 "resourcePath": "objects\\obj_easySelect\\obj_easySelect.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4044ee19-22e1-4393-b191-305006bbcd45",
+            "Value": {
+                "id": "5f6b077e-6591-4828-bb71-99a1332a410e",
+                "resourcePath": "sprites\\spr_disabilityCredits\\spr_disabilityCredits.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -679,6 +703,14 @@
             }
         },
         {
+            "Key": "5c11dbc4-861e-4a5d-84a8-ebd3b6fba0b0",
+            "Value": {
+                "id": "2aaa7ead-c0bf-4a92-9f49-a0bc5a2dacf7",
+                "resourcePath": "sprites\\spr_dissabilityButton\\spr_dissabilityButton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5c504f1a-169a-4af8-8879-4258bc3ed4d6",
             "Value": {
                 "id": "23e40afb-0477-45e8-bd10-bbbb5d8412bd",
@@ -795,6 +827,14 @@
             "Value": {
                 "id": "9a0f6703-56fa-42a3-8c27-b6c334949272",
                 "resourcePath": "objects\\obj_wall\\obj_wall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6cb8da82-9bf9-40fe-9b28-6cf0ec737797",
+            "Value": {
+                "id": "2f0d22d0-b506-4e0a-b45f-76a7f61842d0",
+                "resourcePath": "objects\\obj_disabilityButton\\obj_disabilityButton.yy",
                 "resourceType": "GMObject"
             }
         },
