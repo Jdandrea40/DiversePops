@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "015aad07-a307-452e-ae65-5edad24b7dbb",
+            "Value": {
+                "id": "150884e6-b738-46b7-92d7-108b68e0dc08",
+                "resourcePath": "sprites\\spr_standardContrButton\\spr_standardContrButton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "03d9d71c-642b-4dc8-a1b5-c78524fad210",
             "Value": {
                 "id": "18bcc00a-359d-4b4f-8de6-bd54c742868e",
@@ -266,7 +274,7 @@
             "Key": "253dcd6e-42e7-4790-8adc-237c63e94840",
             "Value": {
                 "id": "9859d99d-059a-4a21-b8fc-a07c34e5de4c",
-                "resourcePath": "objects\\obj_microTransParent\\obj_microTransParent.yy",
+                "resourcePath": "objects\\obj_microTransController\\obj_microTransController.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -340,6 +348,14 @@
                 "id": "2c2e6c57-817b-4694-8c9c-a7cdac39b348",
                 "resourcePath": "rooms\\rm_Assets\\rm_Assets.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "2c79b004-66cc-4740-b942-3e2257af8a61",
+            "Value": {
+                "id": "ceea4775-133c-4cf1-ae26-cafe17d77be3",
+                "resourcePath": "objects\\obj_normalControlSelectButton\\obj_normalControlSelectButton.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -495,6 +511,14 @@
             }
         },
         {
+            "Key": "448e63aa-9cea-4c8f-936a-83e63a9a1bf7",
+            "Value": {
+                "id": "d14cade8-c38a-4e3c-811e-b8008d6533f9",
+                "resourcePath": "rooms\\rm_ControllerStyleSelect\\rm_ControllerStyleSelect.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "45d4d62e-c96e-4eff-9e37-0e46640e0632",
             "Value": {
                 "id": "4e1e1fc2-fd67-4f84-9957-bf18c1b32693",
@@ -572,6 +596,22 @@
                 "id": "7055599b-9c6c-4706-a396-1b7d1709e745",
                 "resourcePath": "sprites\\spr_basicEnemyAlert\\spr_basicEnemyAlert.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "535a86d9-6d4e-452f-9667-f0cb24d3ebe5",
+            "Value": {
+                "id": "e7d0d5da-db6c-4a94-83bb-b56d3124e462",
+                "resourcePath": "objects\\obj_mouseControlSelectButton\\obj_mouseControlSelectButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "541d45f6-abc3-45a1-a920-dabfade7190e",
+            "Value": {
+                "id": "1cbdb7c4-4386-42fe-8c82-15332865e8af",
+                "resourcePath": "objects\\obj_moveToX\\obj_moveToX.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -799,6 +839,14 @@
             }
         },
         {
+            "Key": "75d78080-1484-426f-9a5a-2675ae29be09",
+            "Value": {
+                "id": "6a939387-a690-4e88-9336-c5a239e0add5",
+                "resourcePath": "sprites\\spr_controlsButton\\spr_controlsButton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "76663e30-631b-4edc-b2a3-04f1646a6b9b",
             "Value": {
                 "id": "04344e0b-be13-44a3-89c7-b3accf5332f3",
@@ -835,6 +883,14 @@
             "Value": {
                 "id": "e3867c18-359b-4f40-8ffa-dd4e61bd69c3",
                 "resourcePath": "sprites\\spr_stunShot1\\spr_stunShot1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7f1a61fb-1b58-4b4e-92db-ff6dde4fb92a",
+            "Value": {
+                "id": "9a7a2303-279e-4691-82a8-26e5fdc2ad29",
+                "resourcePath": "sprites\\spr_moveToX\\spr_moveToX.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1124,6 +1180,14 @@
                 "id": "041ce213-fad5-4c1a-8ef5-4e41b9276894",
                 "resourcePath": "rooms\\rm_PvP\\rm_PvP.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "b0ca383b-94c8-48a5-ba7b-da8f2eabeb9b",
+            "Value": {
+                "id": "05741b46-eb9a-4040-ac4c-3bd4e5ff672f",
+                "resourcePath": "objects\\obj_controlScheme\\obj_controlScheme.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1463,6 +1527,14 @@
             }
         },
         {
+            "Key": "dabd8f52-4972-44ba-8aa7-ab716ade8f96",
+            "Value": {
+                "id": "a918d887-5d09-46d3-95c4-d8dbcc7ec8c2",
+                "resourcePath": "objects\\obj_controlSelectButton\\obj_controlSelectButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "db9f056c-0615-409b-b289-e27c57c9af8e",
             "Value": {
                 "id": "2dd1e7c3-1f97-4b20-9f5e-c6a28717e00d",
@@ -1684,6 +1756,14 @@
                 "id": "3af22422-01e3-44fc-8ae1-8f24a55a939f",
                 "resourcePath": "objects\\obj_coopWalls\\obj_coopWalls.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fb97511a-bedf-4201-9616-648bd5339318",
+            "Value": {
+                "id": "86691c0d-21a9-4016-99c8-ca8c9e2fa4a4",
+                "resourcePath": "sprites\\spr_mouseOnlyButton\\spr_mouseOnlyButton.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

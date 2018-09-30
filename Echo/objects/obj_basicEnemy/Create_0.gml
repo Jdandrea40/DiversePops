@@ -5,7 +5,8 @@ enum Estates
 	alert,
 	attack,
 	invisMove,
-	stunned
+	stunned,
+	dead
 }
 
 
@@ -17,6 +18,7 @@ sprites_array[Estates.alert] = spr_basicEnemyAlert;
 sprites_array[Estates.attack] = spr_basicEnemyAttack;
 sprites_array[Estates.invisMove] = spr_basicEnemyEcho;
 sprites_array[Estates.stunned] = spr_basicEnemyStun;
+sprites_array[Estates.dead] = spr_basicDead;
 
 // Invisible Support
 revealedTime = 0;
