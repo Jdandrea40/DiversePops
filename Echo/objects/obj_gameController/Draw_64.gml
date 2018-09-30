@@ -50,4 +50,22 @@ if (ambienceText = true)
 {
 	draw_set_color(c_white);
 	draw_text(400, 733, "Eerie music plays" )
-}		
+}	
+
+// Draws No Ammo
+if (global.controlChoice = 1)
+{
+	if (noAmmoCue = true && mouse_check_button(mb_left))
+	{
+		draw_set_color(c_red);
+		draw_text(370, 600, "You are out of Ammo!" )
+	}
+}
+else if (global.controlChoice = 2)
+{
+	if (noAmmoCue = true && mouse_check_button(mb_middle))
+	{
+		draw_set_color(c_red);
+		draw_text(370, 600, "You are out of Ammo!" )
+	}
+}

@@ -12,3 +12,8 @@ else
 {
 	ambienceText = false
 }
+
+if (global.p1AmmoCount < 1)
+{
+	noAmmoCue = true;
+}
