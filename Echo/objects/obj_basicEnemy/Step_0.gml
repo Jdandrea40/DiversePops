@@ -99,22 +99,16 @@ if (revealedTime <= 0)
 {
 	sprite_index = sprites_array[Estates.invisMove]
 	enemyInvisible = true;
+	global.enemyVisCue = false;
+}
+else
+{
+	global.enemyVisCue = true;
 }
  
 if (visible = true)
 {
-	revealedTime = revealedTime - 1;	 
-}
-
-
-/*if (enemyStunTimer > 0)
-{
-	visible = true;
-	enemyStunTimer = enemyStunTimer - 1;
+	revealedTime = revealedTime - 1;
 
 }
-if (enemyStunTimer < 1)
-{
-	global.eStunned = false;
-	enemyStunTimer = 0;
-}
+

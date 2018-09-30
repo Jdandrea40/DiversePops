@@ -722,7 +722,7 @@
             "Key": "5cc9aa28-1698-41b5-8c58-0fcbe1033514",
             "Value": {
                 "id": "3e8a261e-7259-45ad-b62d-0d36418efc21",
-                "resourcePath": "fonts\\fnt_Impact_30\\fnt_Impact_30.yy",
+                "resourcePath": "fonts\\fnt_Impact_15\\fnt_Impact_15.yy",
                 "resourceType": "GMFont"
             }
         },
@@ -927,6 +927,14 @@
             }
         },
         {
+            "Key": "7b2f22aa-7353-4e04-bf48-dc608010435a",
+            "Value": {
+                "id": "189b1d58-6078-42c9-8c9d-76d9a09de6e4",
+                "resourcePath": "sprites\\spr_standardButtonControls\\spr_standardButtonControls.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7dd8c092-53f7-4656-857c-b520ab2624d5",
             "Value": {
                 "id": "e3867c18-359b-4f40-8ffa-dd4e61bd69c3",
@@ -1100,6 +1108,14 @@
                 "id": "65dceaae-09ef-4e6c-9255-5c45c70aa785",
                 "resourcePath": "views\\9c4c3b81-4cb0-4239-a481-be38966a83b5.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9d11016a-e593-4051-9f64-decef84249c6",
+            "Value": {
+                "id": "844a29a9-eb48-4c7b-b76f-54806b561238",
+                "resourcePath": "objects\\obj_standardButtonControls\\obj_standardButtonControls.yy",
+                "resourceType": "GMObject"
             }
         },
         {
