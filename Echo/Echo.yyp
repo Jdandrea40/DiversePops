@@ -551,6 +551,14 @@
             }
         },
         {
+            "Key": "4acad3f0-7dd0-4929-84d5-46f6176aa270",
+            "Value": {
+                "id": "63246662-2ea3-4f23-831c-d8dc5f57b775",
+                "resourcePath": "objects\\obj_mouseButtonControls\\obj_mouseButtonControls.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4bdaddcd-31b5-4d8e-8d96-ae3c5da145b3",
             "Value": {
                 "id": "9087a960-e41f-46f1-bd7b-73dcba453247",
@@ -980,6 +988,14 @@
                 "id": "05c28d7a-be26-4c31-871d-00ecfe93cddd",
                 "resourcePath": "sprites\\spr_puzzleButton\\spr_puzzleButton.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8ded3165-3f7c-451e-907a-832ce88ada83",
+            "Value": {
+                "id": "d8b46cd1-9f3e-4629-ae6b-e09811618f80",
+                "resourcePath": "objects\\obj_deadSplat\\obj_deadSplat.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1547,6 +1563,14 @@
             "Value": {
                 "id": "6e45eb64-9b09-4663-8a4e-440f35a06e67",
                 "resourcePath": "sprites\\spr_backButton\\spr_backButton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "dd2d22db-491b-41b1-b0d2-ad3513f52454",
+            "Value": {
+                "id": "cd9e0b24-3fe2-4591-abe7-96a983c3dafb",
+                "resourcePath": "sprites\\spr_mouseButtonControls\\spr_mouseButtonControls.yy",
                 "resourceType": "GMSprite"
             }
         },

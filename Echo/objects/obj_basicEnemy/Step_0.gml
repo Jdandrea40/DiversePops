@@ -32,8 +32,6 @@ if (instance_exists(obj_player1) && distance_to_object(obj_player1) < alertRange
 	state = Estates.invisMove;	
 }
 
-
-
 // State Functions
 // Stunned State
 if (state = Estates.stunned)
@@ -107,6 +105,7 @@ if (visible = true)
 {
 	revealedTime = revealedTime - 1;	 
 }
+
 
 /*if (enemyStunTimer > 0)
 {

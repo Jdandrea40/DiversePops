@@ -49,11 +49,24 @@ if (global.controlChoice = 2)
 	mp_potential_step(obj_moveToX.x, obj_moveToX.y, min(4, mouseDistance), false);
 	}
 	
-	if(mouse_check_button(mb_right))
+	if (mouse_check_button(mb_right) && echoCooldown < 1)
 	{
+		audio_play_sound(sfx_echoLocate, 1, false);	
 		instance_create_layer(x,y,"Instances",obj_echo);
+		echoCooldown = 100;
 	}
-		
+	echoCooldown = echoCooldown - 1;
+	
+		// killShot creation
+	if (mouse_check_button(mb_middle) && global.p1AmmoCount > 0 && stunCooldown< 1)
+	{
+		audio_play_sound(sfx_shoot, 1, false);
+		global.p1AmmoCount = global.p1AmmoCount - 1;
+		instance_create_layer(x,y,"Instances",obj_stunShot);
+		stunCooldown = 60;
+	}
+	stunCooldown = stunCooldown - 1;
+	
 	/*mouseMoveSpeed = 5; 
 	if (xx != mouse.none && yy != mouse.none)
 	{

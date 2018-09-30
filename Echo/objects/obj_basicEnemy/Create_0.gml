@@ -8,6 +8,7 @@ enum Estates
 	stunned,
 	dead
 }
+deadEnemy = 30;
 
 
 visible = false;
@@ -23,6 +24,8 @@ sprites_array[Estates.dead] = spr_basicDead;
 // Invisible Support
 revealedTime = 0;
 enemyInvisible = true;
+
+deadEnemy = false;
 
 // Stun Support
 enemyStunTimer = 0;
