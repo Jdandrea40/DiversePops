@@ -1,6 +1,5 @@
 if (sprite_index = spr_mouseOnlyButton)
 {
-
 	global.normalControls = false;
 	global.mouseOnlyControls = true;
 }

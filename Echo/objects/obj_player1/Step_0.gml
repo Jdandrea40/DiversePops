@@ -10,7 +10,6 @@ if (global.controlChoice = 1)
 	{
 		y = y + playerSpd;
 		playerMoving = true;
-
 	}
 
 	else if (keyboard_check(ord("A")) && place_free(x - playerSpd, y)) 
@@ -26,6 +25,7 @@ if (global.controlChoice = 1)
 	else
 	{
 		playerMoving = false;
+	}
 
 	image_angle = point_direction(x,y,mouse_x,mouse_y);
 
@@ -53,11 +53,14 @@ if (global.controlChoice = 2)
 {
 	if(instance_exists(obj_moveToX))
 	{
-		mouseDistance = point_distance(x,y,obj_moveToX.x,obj_moveToX.y)
+		mouseDistance = point_distance(x,y,obj_moveToX.x,obj_moveToX.y);
 		mp_potential_step(obj_moveToX.x, obj_moveToX.y, min(4, mouseDistance), false);
 		playerMoving = true;
 	}
-
+	else
+	{
+		playerMoving = false;
+	}
 	
 	if (mouse_check_button(mb_right) && echoCooldown < 1)
 	{
@@ -67,7 +70,7 @@ if (global.controlChoice = 2)
 	}
 	echoCooldown = echoCooldown - 1;
 	
-		// killShot creation
+	// killShot creation
 	if (mouse_check_button(mb_middle) && global.p1AmmoCount > 0 && stunCooldown< 1)
 	{
 		audio_play_sound(sfx_shoot, 1, false);
@@ -77,6 +80,8 @@ if (global.controlChoice = 2)
 	}
 	stunCooldown = stunCooldown - 1;
 }
+
+
 if(playerMoving == true && !audio_is_playing(sfx_player1Walk))
 {
 	audio_play_sound(sfx_player1Walk, 1, true)
@@ -86,28 +91,7 @@ else if (playerMoving == false)
 	audio_stop_sound(sfx_player1Walk)
 }
 
-}
-	
-	/*mouseMoveSpeed = 5; 
-	if (xx != mouse.none && yy != mouse.none)
-	{
-		if (place_free(x + mouseMoveSpeed, y + mouseMoveSpeed))
-		{
-			move_towards_point(xx,yy,mouseMoveSpeed)
-		}
-	}
-	else
-	{
-		speed = 0
-	}
-	
-	if (distance_to_point(xx,yy) < mouseMoveSpeed + 2)
-	{
-		xx = mouse.none;
-		yy = mouse.none;
-	}
-	*/
-	
+
 	
 
 
