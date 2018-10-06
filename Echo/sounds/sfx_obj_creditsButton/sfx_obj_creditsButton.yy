@@ -1,8 +1,8 @@
 {
-    "id": "3352e679-a53e-49c4-b605-61c2077c50f1",
+    "id": "9c5ef244-2e4b-450d-95fe-726a3f616fcf",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "sfx_step",
+    "name": "sfx_obj_creditsButton",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,

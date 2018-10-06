@@ -1,5 +1,5 @@
 // draws total chests collected/avaiable
-draw_set_font(fnt_Impact_15)
+draw_set_font(fnt_Impact_15);
 draw_set_color(c_white);
 draw_text(64, 32, "Chests collected: " + string(global.chests)
 		+ "/" + string(chestCount));

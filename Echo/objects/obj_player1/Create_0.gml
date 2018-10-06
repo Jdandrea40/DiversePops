@@ -1,6 +1,7 @@
 echoCooldown = 0;
 stunCooldown = 30;
 playerSpd = 4;
+playerMoving = false;
 global.p1AmmoCount = 3;
 
 

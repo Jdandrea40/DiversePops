@@ -4,20 +4,28 @@ if (global.controlChoice = 1)
 	if (keyboard_check(ord("W")) && place_free(x, y - playerSpd))
 	{
 		y = y - playerSpd;
+		playerMoving = true;	
 	}
-	if (keyboard_check(ord("S")) && place_free(x, y + playerSpd))
+	else if (keyboard_check(ord("S")) && place_free(x, y + playerSpd))
 	{
 		y = y + playerSpd;
+		playerMoving = true;
+
 	}
 
-	if (keyboard_check(ord("A")) && place_free(x - playerSpd, y)) 
+	else if (keyboard_check(ord("A")) && place_free(x - playerSpd, y)) 
 	{
 		x = x - playerSpd;
+		playerMoving = true;
 	}
-	if (keyboard_check(ord("D")) && place_free(x + playerSpd, y)) 
+	else if (keyboard_check(ord("D")) && place_free(x + playerSpd, y)) 
 	{
 		x = x + playerSpd;
+		playerMoving = true;
 	}
+	else
+	{
+		playerMoving = false;
 
 	image_angle = point_direction(x,y,mouse_x,mouse_y);
 
@@ -45,9 +53,11 @@ if (global.controlChoice = 2)
 {
 	if(instance_exists(obj_moveToX))
 	{
-	mouseDistance = point_distance(x,y,obj_moveToX.x,obj_moveToX.y)
-	mp_potential_step(obj_moveToX.x, obj_moveToX.y, min(4, mouseDistance), false);
+		mouseDistance = point_distance(x,y,obj_moveToX.x,obj_moveToX.y)
+		mp_potential_step(obj_moveToX.x, obj_moveToX.y, min(4, mouseDistance), false);
+		playerMoving = true;
 	}
+
 	
 	if (mouse_check_button(mb_right) && echoCooldown < 1)
 	{
@@ -66,6 +76,17 @@ if (global.controlChoice = 2)
 		stunCooldown = 60;
 	}
 	stunCooldown = stunCooldown - 1;
+}
+if(playerMoving == true && !audio_is_playing(sfx_player1Walk))
+{
+	audio_play_sound(sfx_player1Walk, 1, true)
+}
+else if (playerMoving == false)
+{
+	audio_stop_sound(sfx_player1Walk)
+}
+
+}
 	
 	/*mouseMoveSpeed = 5; 
 	if (xx != mouse.none && yy != mouse.none)
@@ -86,8 +107,8 @@ if (global.controlChoice = 2)
 		yy = mouse.none;
 	}
 	*/
-}
-
+	
+	
 
 
 
