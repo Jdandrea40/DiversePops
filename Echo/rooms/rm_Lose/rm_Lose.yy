@@ -2,7 +2,7 @@
 {
     "name": "rm_Lose",
     "id": "52ce8157-9990-42ea-97cd-96a37d451f7c",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

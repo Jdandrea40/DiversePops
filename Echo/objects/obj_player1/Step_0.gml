@@ -1,3 +1,5 @@
+audio_listener_position(x,y,0);
+
 if (global.controlChoice = 1)
 {
 	// Player Movement

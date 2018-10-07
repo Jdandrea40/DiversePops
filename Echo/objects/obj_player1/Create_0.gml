@@ -4,6 +4,9 @@ playerSpd = 4;
 playerMoving = false;
 global.p1AmmoCount = 3;
 
+audio_listener_orientation(0,1,0,0,0,1);
+global.mainEmitter = audio_emitter_create();
+
 
 switch (global.characterSelect)
 {

@@ -1,3 +1,4 @@
+audio_emitter_position(enemyEmitter, x ,y, 0);
 // state change range vars
 var alertRange = 100;
 var attackRange = 70
@@ -26,10 +27,12 @@ if (instance_exists(obj_player1) && distance_to_object(obj_player1) <= attackRan
 if (instance_exists(obj_player1) && distance_to_object(obj_player1) > alertRange && global.eStunned = false)
 {
 	state = Estates.idle;
+
 }
 if (instance_exists(obj_player1) && distance_to_object(obj_player1) < alertRange && visible = false && global.eStunned = false)
 {
-	state = Estates.invisMove;	
+	state = Estates.invisMove;
+
 }
 
 // State Functions
@@ -108,6 +111,7 @@ else
  
 if (visible = true)
 {
+
 	revealedTime = revealedTime - 1;
 
 }

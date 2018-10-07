@@ -1,3 +1,12 @@
+enemyEmitter = audio_emitter_create();
+audio_falloff_set_model(audio_falloff_linear_distance_clamped);
+audio_emitter_falloff(enemyEmitter,100,500,1);
+
+if(!audio_is_playing(sfx_enemyGrunt))
+{
+	audio_play_sound_on(enemyEmitter,sfx_enemyGrunt, true, 1)
+}
+
 // State Machine Setup
 enum Estates
 {
