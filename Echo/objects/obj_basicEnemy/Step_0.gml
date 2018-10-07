@@ -5,6 +5,7 @@ var attackRange = 70
 var spd = 0;
 
 
+
 if (enemyInvisible = true && speed > 0)
 {
 	sprite_index = sprites_array[Estates.invisMove];

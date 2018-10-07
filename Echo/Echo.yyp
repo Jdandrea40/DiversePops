@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "0709b3e3-ca04-45df-b482-1d6305522440",
+            "Value": {
+                "id": "ea7cf973-6cd4-4882-9051-1194c622b46a",
+                "resourcePath": "sounds\\sfx_blindModeDeactivated\\sfx_blindModeDeactivated.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "08047f20-a3bc-4531-bbef-070f3b774481",
             "Value": {
                 "id": "343c0f1b-895a-4206-8779-8cc93f84fcbd",
@@ -1111,6 +1119,14 @@
             }
         },
         {
+            "Key": "8d1f75c8-3023-491e-9acb-6c999843a52a",
+            "Value": {
+                "id": "908d7801-b800-433c-925e-070dfff3ee08",
+                "resourcePath": "sounds\\sfx_blindModeActivated\\sfx_blindModeActivated.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "8ded3165-3f7c-451e-907a-832ce88ada83",
             "Value": {
                 "id": "d8b46cd1-9f3e-4629-ae6b-e09811618f80",
@@ -1411,6 +1427,14 @@
             "Value": {
                 "id": "9bc56fdb-6387-4ae2-bb77-8ae5d890819f",
                 "resourcePath": "sounds\\sfx_BlindModeNotification\\sfx_BlindModeNotification.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "b37e844a-896c-4870-b677-c64bd36790ba",
+            "Value": {
+                "id": "da04e8b1-4b89-4aa8-adae-f858d9ad9fee",
+                "resourcePath": "sounds\\sfx_deadEnemy\\sfx_deadEnemy.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -1716,6 +1740,14 @@
                 "id": "f6c5db32-6663-42bd-8d4f-57c8900fbf22",
                 "resourcePath": "sprites\\spr_exit\\spr_exit.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d56aed94-b9fa-402c-bec2-4148f7933e4a",
+            "Value": {
+                "id": "d330c9da-16fe-4cd1-b8a2-1dc037422d5f",
+                "resourcePath": "datafiles_yy\\Echo_DeadEnemy.flac.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
