@@ -1,0 +1,1 @@
+audio_play_sound(sfx_helpScreenRead, 1, false);

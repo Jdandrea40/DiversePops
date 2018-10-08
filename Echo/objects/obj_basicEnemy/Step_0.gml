@@ -1,9 +1,26 @@
-audio_emitter_position(enemyEmitter, x ,y, 0);
+
 // state change range vars
 var alertRange = 100;
 var attackRange = 70
 var spd = 0;
 
+if (enemyAlive == true && !audio_exists(enemySound))
+{
+	enemySound = audio_play_sound_at(sfx_enemyGrunt, x, y, 0, 100, 100, 1, true, 1)
+	/*audio_emitter_position(enemyEmitter, x ,y, 0);
+	audio_falloff_set_model(audio_falloff_exponent_distance);
+	audio_emitter_falloff(enemyEmitter, 100, 300, 1.4);
+	if (!audio_is_playing(sfx_enemyGrunt))
+	{
+		audio_play_sound_on(enemyEmitter, sfx_enemyGrunt, true, 1);
+	}
+	*/	
+}
+	
+//if (enemyEmitterDead = true)
+//{
+//	audio_stop_sound(sfx_enemyGrunt);
+//}
 
 
 if (enemyInvisible = true && speed > 0)

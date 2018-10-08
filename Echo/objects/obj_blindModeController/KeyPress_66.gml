@@ -1,3 +1,4 @@
+
 if (global.blindModeActivated = false)
 {
 	global.blindModeActivated = true;

@@ -1,7 +1,18 @@
+//enemyEmitter = audio_emitter_create();
+//audio_falloff_set_model(audio_falloff_exponent_distance);
+//audio_emitter_falloff(enemyEmitter, 100, 300, 1.4);
+//audio_play_sound_on(enemyEmitter, sfx_enemyGrunt, true, 1);
+
+enemyAlive = true;
 enemyEmitter = audio_emitter_create();
-audio_falloff_set_model(audio_falloff_exponent_distance);
-audio_emitter_falloff(enemyEmitter, 100, 300, 1.4);
-audio_play_sound_on(enemyEmitter, sfx_enemyGrunt, true, 1);
+enemySound = noone;
+
+/*var i;
+for (i = 0; 1 < instance_count(obj_basicEnemy); i++)
+{
+	basicEnemies[i] = instance_find(obj_basicEnemy, i);	
+}
+*/
 
 // State Machine Setup
 enum Estates

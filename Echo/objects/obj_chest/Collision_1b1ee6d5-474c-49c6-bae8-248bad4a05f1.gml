@@ -7,3 +7,5 @@ with (other)
 	global.chestSpawnTimer = 200;
 	}
 }
+
+

@@ -3,7 +3,7 @@ global.enemies = 0
 
 chestAchieveActive = false;
 wallAchieveActive = false;
-audio_play_sound(sfx_ambience, 1, true);
+playAchieveRead = true;
 
 // Gets number of Chests in map
 chestCount = instance_number(obj_chest);

@@ -2,7 +2,7 @@
 {
     "name": "rm_HelpScreen",
     "id": "45d4d62e-c96e-4eff-9e37-0e46640e0632",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
