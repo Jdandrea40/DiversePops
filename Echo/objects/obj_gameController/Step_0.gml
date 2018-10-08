@@ -28,6 +28,7 @@ if (global.blindModeActivated == true)
 			}
 		}
 	}
+	
 	if (global.chestAchieve = true && playAchieveRead = true)
 	{
 		{
