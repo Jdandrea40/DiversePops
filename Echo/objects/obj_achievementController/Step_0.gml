@@ -1,8 +1,10 @@
+// Checks for chests collected
 if (global.chests >= chestCount)
 {
 	global.chestAchieve = true;	
 }
 
+// Ambience cue for subtitles
 if (ambienceCue > 0)
 {
 	ambienceText = true
@@ -13,10 +15,13 @@ else
 	ambienceText = false
 }
 
+// Ammo Cue
 if (global.p1AmmoCount < 1)
 {
 	noAmmoCue = true;
 }
+
+// Reads out No Ammo
 if (global.blindModeActivated == true)
 {
 	if (noAmmoCue = true && mouse_check_button(mb_left))

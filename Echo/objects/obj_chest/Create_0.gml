@@ -1,9 +1,10 @@
+// Text support
+chestText = noone;
+textArray[0] = "Congratulations! You have collected your first chest!";
+textArray[1] = "There are more around, can you find them?";
+
 visible = false;
 chestVisDur = 0;
-
-//chestEmitter = audio_emitter_create();
-//audio_falloff_set_model(audio_falloff_exponent_distance);
-//audio_emitter_falloff(chestEmitter, 100, 300, 1.4);
 
 chestEmitter = audio_emitter_create();
 chestSound = noone;

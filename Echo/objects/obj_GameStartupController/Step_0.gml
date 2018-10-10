@@ -1,3 +1,4 @@
+// Blind Mode Announcement
 if (blindModeTimer > 0)
 {
 	blindModeTimer = blindModeTimer - 1;

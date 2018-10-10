@@ -55,7 +55,7 @@ if (ambienceText = true)
 // Draws No Ammo
 if (global.controlChoice = 1)
 {
-	if (noAmmoCue = true && mouse_check_button(mb_left))
+	if (noAmmoCue = true)
 	{
 		draw_set_color(c_red);
 		draw_text(370, 600, "You are out of Ammo!" )
@@ -63,7 +63,7 @@ if (global.controlChoice = 1)
 }
 else if (global.controlChoice = 2)
 {
-	if (noAmmoCue = true && mouse_check_button(mb_middle))
+	if (noAmmoCue = true)
 	{
 		draw_set_color(c_red);
 		draw_text(370, 600, "You are out of Ammo!" )

@@ -1,4 +1,4 @@
-
+// Blind Mode Activation
 if (global.blindModeActivated = false)
 {
 	global.blindModeActivated = true;
