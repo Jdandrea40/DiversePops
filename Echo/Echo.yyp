@@ -551,6 +551,14 @@
             }
         },
         {
+            "Key": "3b6f5c99-4f7c-4e02-ab73-100a4f17edeb",
+            "Value": {
+                "id": "9f60f556-468d-4c67-997a-509355d5a45f",
+                "resourcePath": "objects\\obj_enemyPullTutorial\\obj_enemyPullTutorial.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3ca28f72-f741-415f-b2bf-9fcd344b105f",
             "Value": {
                 "id": "0e2431cc-9a05-43a8-ab86-5189535fdadf",
@@ -1547,6 +1555,14 @@
             "Value": {
                 "id": "2eb6f1e7-fb29-4c80-8393-1de4e27ef17b",
                 "resourcePath": "objects\\obj_creditsButton\\obj_creditsButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "af0c965c-b3d7-4307-aafd-336bc91a9382",
+            "Value": {
+                "id": "1ce364cb-6755-460a-849c-8c0bddde8308",
+                "resourcePath": "objects\\obj_doorTutorial\\obj_doorTutorial.yy",
                 "resourceType": "GMObject"
             }
         },

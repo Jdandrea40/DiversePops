@@ -2,7 +2,7 @@ audio_listener_position(x,y,0);
 
 if (global.controlChoice = 1 )
 {
-	if (global.textBoxActive = false)
+	if (global.textBoxActive == false)
 	{
 		// Player Movement
 		if (keyboard_check(ord("W")) && place_free(x, y - playerSpd))
@@ -43,7 +43,8 @@ if (global.controlChoice = 1 )
 		echoCooldown = echoCooldown - 1;
 
 		// killShot creation
-		if (mouse_check_button(mb_left) && global.p1AmmoCount > 0 && stunCooldown< 1)
+		if (mouse_check_button(mb_left) && global.p1AmmoCount > 0 &&
+		stunCooldown< 1 && global.textBoxActive == false)
 		{
 			audio_play_sound(sfx_shoot, 1, false);
 			global.p1AmmoCount = global.p1AmmoCount - 1;
@@ -56,9 +57,9 @@ if (global.controlChoice = 1 )
 
 if (global.controlChoice = 2 )
 {
-	if (global.textBoxActive = false)
+	if (global.textBoxActive == false)
 	{
-		if(instance_exists(obj_moveToX))
+		if(instance_exists(obj_moveToX) && global.textBoxActive == false)
 		{
 			mouseDistance = point_distance(x,y,obj_moveToX.x,obj_moveToX.y);
 			mp_potential_step(obj_moveToX.x, obj_moveToX.y, min(4, mouseDistance), false);

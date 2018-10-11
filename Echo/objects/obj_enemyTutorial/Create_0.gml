@@ -6,7 +6,7 @@ enemyText = noone;
 
 if (global.controlChoice == 1)
 {
-	textArray[0] = "Watch out! Theres an enemy near by. Reveal him with your Echo (SPACEBAR)";
+	textArray[0] = "Watch out! There's an enemy near by. Reveal him with your Echo (SPACEBAR)";
 }
 else if (global.controlChoice == 2)
 {
