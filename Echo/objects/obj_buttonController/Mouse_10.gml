@@ -1,6 +1,23 @@
 with (other)
 {
-	image_alpha = image_alpha - .5;
+	if (object_index == obj_continue || object_index == obj_tutorialButton)
+	{
+		if (global.clickAvailable == false)
+		{
+			image_blend = make_color_rgb(255,0,0);
+			image_alpha = image_alpha -.5
+		}
+		else if (global.clickAvailable == true)
+		{
+			image_blend = make_color_rgb(255,255,255);
+			image_alpha = image_alpha - .5
+		}
+	}
+	else
+	{
+		image_alpha = image_alpha - .5;
+	}
+	
 }
 if (global.blindModeActivated = true)
 {

@@ -1607,6 +1607,14 @@
             }
         },
         {
+            "Key": "b3353d00-f4ac-4970-9397-5834678618a3",
+            "Value": {
+                "id": "0ba47f8f-6599-4a16-969e-1ce37e2cf259",
+                "resourcePath": "sounds\\sfx_errorBeep\\sfx_errorBeep.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "b37e844a-896c-4870-b677-c64bd36790ba",
             "Value": {
                 "id": "da04e8b1-4b89-4aa8-adae-f858d9ad9fee",
