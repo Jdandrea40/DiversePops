@@ -1,5 +1,20 @@
 audio_emitter_position(doorEmitter, x ,y, 0);
 
+if (global.tutorialActivated = true)
+{
+	// Displays first chest collected
+	if (doorFound == true && global.doorFirstFoundMessage == true)
+	{
+		if (doorText == noone)
+		{	
+			doorText = instance_create_layer(viewMidWidth, viewHeightMid, "Text", obj_textBox);
+			doorText.text = textArray;
+		}
+		global.doorFirstFoundMessage = false;
+		
+	}
+}
+
 if (exitReveal <= 0)
 {
 	sprite_index = spr_invis;

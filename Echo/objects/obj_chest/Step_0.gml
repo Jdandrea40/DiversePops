@@ -1,13 +1,14 @@
 if (global.tutorialActivated = true)
 {
 	// Displays first chest collected
-	if (place_meeting(x, y, obj_player1))
+	if (place_meeting(x, y, obj_player1) && global.chestFirstFoundMessage == true)
 	{
 		if (chestText == noone)
 		{	
-			chestText = instance_create_layer(x, y, "Text", obj_textBox);
+			chestText = instance_create_layer(viewMidWidth, viewHeightMid, "Text", obj_textBox);
 			chestText.text = textArray;
 		}
+		global.chestFirstFoundMessage = false;
 		
 	}
 }

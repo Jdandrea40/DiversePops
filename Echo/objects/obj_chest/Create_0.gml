@@ -1,4 +1,6 @@
 // Text support
+viewMidWidth = view_xport[0] + view_wport[0] * 0.3
+viewHeightMid = view_yport[0]+ view_hport[0] * 0.3
 chestText = noone;
 textArray[0] = "Congratulations! You have collected your first chest!";
 textArray[1] = "There are more around, can you find them?";

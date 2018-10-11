@@ -1,0 +1,1 @@
+doorFound = true;
