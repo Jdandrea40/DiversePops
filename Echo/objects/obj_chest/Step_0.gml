@@ -1,4 +1,4 @@
-if (global.tutorialActivated = true)
+if (global.tutorialActivated == true)
 {
 	// Displays first chest collected
 	if (place_meeting(x, y, obj_player1) && global.chestFirstFoundMessage == true)

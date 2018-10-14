@@ -1,5 +1,6 @@
 global.p1Points = 0;
 global.p2Points = 0;
+global.tutorialActivated = false;
 
 text = "";
 

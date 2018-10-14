@@ -2,7 +2,7 @@
 {
     "name": "rm_CoOp",
     "id": "cee31de9-c790-44f7-a6b9-bcc2d0bbfa45",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

@@ -399,6 +399,14 @@
             }
         },
         {
+            "Key": "291342b0-bb99-4b0e-b093-ac7e059e5394",
+            "Value": {
+                "id": "6881d287-ce87-40de-84ff-ee75e87a1c61",
+                "resourcePath": "sprites\\spr_learningDisabilityCredits\\spr_learningDisabilityCredits.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "29ca5679-f748-46af-a7d5-3ee3da37ca7c",
             "Value": {
                 "id": "1790cf5a-84ff-45d5-be15-16147e85a770",
@@ -932,6 +940,14 @@
                 "id": "7480e4e6-c4d4-49e3-a0a9-b852f5f0beac",
                 "resourcePath": "sprites\\spr_tutorialHelp\\spr_tutorialHelp.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5651d880-984d-4a82-9235-21c95d91ebd8",
+            "Value": {
+                "id": "2a788571-4ff9-44d4-856f-fb50bf4ebd36",
+                "resourcePath": "objects\\obj_pvpContinue\\obj_pvpContinue.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1660,6 +1676,14 @@
                 "id": "8c9cf3b8-9dce-4a1f-a04f-bed72a0dd471",
                 "resourcePath": "sprites\\spr_achievementBox\\spr_achievementBox.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a4d7f1ac-e40e-490e-acaf-85a693e0baeb",
+            "Value": {
+                "id": "e7c1e38c-6d51-47cd-b51e-d1cf871bbeba",
+                "resourcePath": "objects\\obj_learningDisabilityDescription\\obj_learningDisabilityDescription.yy",
+                "resourceType": "GMObject"
             }
         },
         {

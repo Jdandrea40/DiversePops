@@ -13,3 +13,8 @@ chestSound = noone;
 global.pointCollision = true;
 
 global.chestEmitEnabled = false;
+
+if(global.pvpActivated == true)
+{
+	global.tutorialActivated = false;
+}

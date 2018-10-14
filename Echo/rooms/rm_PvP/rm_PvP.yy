@@ -2,7 +2,7 @@
 {
     "name": "rm_PvP",
     "id": "b0b1bbd7-e901-4564-aaee-f98ca1374dca",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

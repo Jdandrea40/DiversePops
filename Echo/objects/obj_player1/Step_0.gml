@@ -108,7 +108,7 @@ if (global.controlChoice = 2 )
 	}
 }
 
-if(playerMoving == true && !audio_is_playing(sfx_player1Walk) && global.textBoxActive == false)
+if(playerMoving == true && !audio_is_playing(sfx_player1Walk) && global.textBoxActive == false && global.walkSFXOn == true)
 {
 	audio_play_sound(sfx_player1Walk, 1, true)
 }

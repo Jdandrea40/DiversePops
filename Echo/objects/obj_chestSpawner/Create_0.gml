@@ -1,2 +1,3 @@
-global.chestSpawnTimer = 0
+global.chestSpawnTimer = 0;
+global.tutorialActivated = false;
 spawnChest = true;
