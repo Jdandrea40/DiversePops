@@ -12,6 +12,7 @@ global.normalSelect = true;
 // Subtitle Support
 global.impactFont = true;
 global.comicSansFont = false;
+global.subtitlesOn = false;
 
 // Music Support
 global.bkgMusicOn = true;

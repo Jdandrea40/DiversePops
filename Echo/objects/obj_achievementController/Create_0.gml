@@ -1,5 +1,13 @@
 global.chests = 0;
 
+if (global.impactFont == true)
+{
+	draw_set_font(fnt_Impact_15)
+}
+else if (global.comicSansFont == true)
+{
+	draw_set_font(fnt_ComicSans_15)
+}
 // Achievements
 chestAchieveActive = false;
 playAchieveRead = true;

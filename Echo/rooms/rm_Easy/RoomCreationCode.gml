@@ -4,3 +4,4 @@ if (global.blindModeActivated == true)
 }
 global.tutorialActivated = false;
 global.textBoxActive = false;
+global.pvpActivated = false;

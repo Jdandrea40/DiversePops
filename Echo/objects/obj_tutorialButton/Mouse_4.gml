@@ -1,4 +1,5 @@
 event_inherited();
+global.pvpActivated = false;
 if (global.clickAvailable == true)
 {
 	room_goto(rm_Tutorial);

@@ -29,7 +29,10 @@
         "b307dab5-2809-47b5-87ec-15eb75b57724",
         "b2fd9eb3-d1a1-4c29-8a4a-fed67e9b72d0",
         "a572be71-7f37-4125-8513-7bb6e875acf3",
-        "b3353d00-f4ac-4970-9397-5834678618a3"
+        "b3353d00-f4ac-4970-9397-5834678618a3",
+        "8e90afbf-3d95-479f-9009-15505041387a",
+        "97410c09-5b52-41c7-8671-4b79e10fcc48",
+        "c03c4ea9-cd9e-4897-89ba-fd7ad386b59a"
     ],
     "filterType": "GMSound",
     "folderName": "Button Sounds",
