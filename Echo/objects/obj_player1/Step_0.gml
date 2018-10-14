@@ -36,7 +36,13 @@ if (global.controlChoice = 1 )
 		// echo creation
 		if (keyboard_check_pressed(vk_space)) && (echoCooldown < 1)
 		{
-			audio_play_sound(sfx_echoLocate, 1, false);	
+			if (global.echoSFXOn == true)
+			{
+				if (!audio_is_playing(sfx_echoLocate))
+				{
+					audio_play_sound(sfx_echoLocate, 1, false);	
+				}
+			}
 			instance_create_layer(x,y,"Instances",obj_echo);
 			echoCooldown = 100;
 		}
@@ -46,7 +52,13 @@ if (global.controlChoice = 1 )
 		if (mouse_check_button(mb_left) && global.p1AmmoCount > 0 &&
 		stunCooldown< 1 && global.textBoxActive == false)
 		{
-			audio_play_sound(sfx_shoot, 1, false);
+			if (global.shootSFXOn == true)
+			{
+				if (!audio_is_playing(sfx_shoot))
+				{
+					audio_play_sound(sfx_shoot, 1, false);
+				}
+			}
 			global.p1AmmoCount = global.p1AmmoCount - 1;
 			instance_create_layer(x,y,"Instances",obj_stunShot);
 			stunCooldown = 60;
@@ -72,7 +84,10 @@ if (global.controlChoice = 2 )
 	
 		if (mouse_check_button(mb_right) && echoCooldown < 1)
 		{
-			audio_play_sound(sfx_echoLocate, 1, false);	
+			if (global.echoSFXOn == true)
+			{
+				audio_play_sound(sfx_echoLocate, 1, false);	
+			}
 			instance_create_layer(x,y,"Instances",obj_echo);
 			echoCooldown = 100;
 		}
@@ -81,7 +96,10 @@ if (global.controlChoice = 2 )
 		// killShot creation
 		if (mouse_check_button(mb_middle) && global.p1AmmoCount > 0 && stunCooldown< 1)
 		{
-			audio_play_sound(sfx_shoot, 1, false);
+			if (global.shootSFXOn == true)
+			{
+				audio_play_sound(sfx_shoot, 1, false);
+			}
 			global.p1AmmoCount = global.p1AmmoCount - 1;
 			instance_create_layer(x,y,"Instances",obj_stunShot);
 			stunCooldown = 60;

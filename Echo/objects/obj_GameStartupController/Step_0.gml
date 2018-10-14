@@ -9,7 +9,10 @@ if (blindModeTimer < 1 && !audio_is_playing(sfx_BlindModeNotification) && blindM
 	audio_play_sound(sfx_BlindModeNotification, 1, false)
 }
 
-if (!audio_is_playing(sfx_ambience))
+if (global.bkgMusicOn == true)
 {
-	audio_play_sound(sfx_ambience, 1, true);
+	if (!audio_is_playing(sfx_ambience))
+	{
+		audio_play_sound(sfx_ambience, 1, true);
+	}
 }
