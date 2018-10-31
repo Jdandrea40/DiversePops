@@ -8,6 +8,8 @@ global.characterSelect = 1;
 global.bigSelect = false;
 global.smallSelect = false;
 global.normalSelect = true;
+global.hiddenChar1 = false
+
 
 // Subtitle Support
 global.impactFont = true;

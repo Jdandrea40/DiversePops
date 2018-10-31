@@ -1311,6 +1311,14 @@
             }
         },
         {
+            "Key": "7ca61d3f-3bea-4bbd-be8b-26ac6d509c03",
+            "Value": {
+                "id": "2138d6ae-d952-41fe-a368-a6ccbda8a85f",
+                "resourcePath": "objects\\obj_unlockCharChest\\obj_unlockCharChest.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7dbf6d00-8cff-40aa-9bc9-a11b0c5576cc",
             "Value": {
                 "id": "8b2caaaf-4791-4e0c-966c-c72ebd0d6d28",
@@ -1972,6 +1980,14 @@
                 "id": "37f2fbe0-2035-47ea-8475-e81870b76de2",
                 "resourcePath": "objects\\obj_hardSelect\\obj_hardSelect.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b7ecd999-7f88-46a3-8862-e9d95e24558a",
+            "Value": {
+                "id": "6218e210-2748-442a-95c4-5263f44daee1",
+                "resourcePath": "views\\b7ecd999-7f88-46a3-8862-e9d95e24558a.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -2692,6 +2708,14 @@
                 "id": "2dde94cc-f6b0-40bc-bfb1-d4fc32163089",
                 "resourcePath": "sounds\\sfx_AchievementRead\\sfx_AchievementRead.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "f9945811-d4c8-4b2b-8c3a-3261d60f76f4",
+            "Value": {
+                "id": "2a3da7a2-1213-4c11-9333-7c6dcb134cd3",
+                "resourcePath": "sprites\\spr_characterUnlockChest\\spr_characterUnlockChest.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
