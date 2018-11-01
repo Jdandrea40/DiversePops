@@ -1,5 +1,8 @@
 with (other)
 {
 	instance_destroy(obj_player1);
-	room_goto(rm_Lose);
+	if(global.checkPointReached == false && global.checkPoint2Reached == false)
+	{
+		room_goto(rm_Lose);
+	}
 }

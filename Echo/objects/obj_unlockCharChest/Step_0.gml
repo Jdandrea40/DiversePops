@@ -5,9 +5,7 @@ if (place_meeting(x, y, obj_player1))
 	{	
 		charChestText = instance_create_layer(viewMidWidth, viewHeightMid, "Instances", obj_textBox);
 		charChestText.text = textArray;
-	}
-
-		
+	}		
 }
 
 // Chest visibilty

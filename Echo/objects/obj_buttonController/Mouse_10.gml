@@ -1,6 +1,6 @@
 with (other)
 {
-	if (object_index == obj_continue || object_index == obj_tutorialButton)
+	if (object_index == obj_continue || object_index == obj_tutorialButton || object_index == obj_lockedButtonHidden1 || object_index == obj_hiddenChar2)
 	{
 		if (global.clickAvailable == false)
 		{

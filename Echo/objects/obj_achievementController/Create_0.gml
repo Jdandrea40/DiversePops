@@ -24,3 +24,18 @@ yPos = camera_get_view_y(view_yport[0] + 100);
 
 ambienceCue = 300;
 noAmmoCue = false;
+
+// Text support
+viewMidWidth = view_xport[0] + view_wport[0] * 0.3
+viewHeightMid = view_yport[0]+ view_hport[0] * 0.3
+charChestText = noone;
+if (global.hiddenChar2 == false)
+{
+	textArray[0] = "Congratulations! You have unlocked a secret Charcter.";
+	textArray[1] = "Go to the Menu to select it.";
+}
+else if (global.hiddenChar2 == true)
+{
+	textArray[0] = "You have already unlocked this character.";
+	textArray[1] = "Go to the menu to select this character.";
+}

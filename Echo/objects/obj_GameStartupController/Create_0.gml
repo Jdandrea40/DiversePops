@@ -8,7 +8,10 @@ global.characterSelect = 1;
 global.bigSelect = false;
 global.smallSelect = false;
 global.normalSelect = true;
-global.hiddenChar1 = false
+global.hiddenChar1 = false;
+global.hiddenChar1Select = false;
+global.hiddenChar2 = false;
+global.hiddenChar1Select = false;
 
 
 // Subtitle Support

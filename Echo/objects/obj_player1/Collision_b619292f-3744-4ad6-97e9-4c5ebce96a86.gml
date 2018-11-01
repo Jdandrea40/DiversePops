@@ -3,4 +3,5 @@ with (other)
 {
 	instance_destroy()
 	instance_create_layer(x, y, "Instances", obj_deadChest)
+	global.hiddenChar1 = true;
 }

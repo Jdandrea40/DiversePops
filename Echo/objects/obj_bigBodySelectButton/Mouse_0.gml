@@ -10,6 +10,8 @@ else if (sprite_index = spr_microTransPurchasedButton)
 	global.bigSelect = true;
 	global.normalSelect = false;
 	global.smallSelect = false;
+	global.hiddenChar1Select = false;
+	global.hiddenChar2Select = false;
 
 }
 

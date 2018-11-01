@@ -2,6 +2,13 @@
 if (global.chests >= chestCount)
 {
 	global.chestAchieve = true;	
+	global.hiddenChar2 = true;
+
+	if (charChestText == noone)
+	{	
+		charChestText = instance_create_layer(viewMidWidth, viewHeightMid, "Instances", obj_textBox);
+		charChestText.text = textArray;
+	}		
 }
 
 // Ambience cue for subtitles

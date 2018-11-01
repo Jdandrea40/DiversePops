@@ -591,6 +591,14 @@
             }
         },
         {
+            "Key": "38b8f237-748d-456d-bc21-5041fd487181",
+            "Value": {
+                "id": "d3405068-56e8-4bcc-aaa6-31ea5c69f155",
+                "resourcePath": "objects\\obj_characterSpriteController\\obj_characterSpriteController.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "38ff7df1-c1e3-425c-bb32-0ce40661e772",
             "Value": {
                 "id": "c7a027f3-826f-4da0-be70-214f11bcfd0c",
@@ -692,6 +700,14 @@
                 "id": "4f63515f-d6c0-46ea-95da-2bc4425250e9",
                 "resourcePath": "objects\\obj_easySelect\\obj_easySelect.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3e706177-24b1-40a2-84d6-b3dd8cc4de04",
+            "Value": {
+                "id": "c54aafe9-e665-4c7f-94ef-27c213a5110f",
+                "resourcePath": "sprites\\spr_checkPointUnlocked\\spr_checkPointUnlocked.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -967,6 +983,22 @@
             }
         },
         {
+            "Key": "57f5ea5c-174b-4bf3-8dff-26cd2c75646f",
+            "Value": {
+                "id": "f5b95dbc-1e92-4d7d-b03f-af69b608f1d9",
+                "resourcePath": "objects\\obj_lockedButtonHidden1\\obj_lockedButtonHidden1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "58039643-c469-46d0-84c8-167d23b22205",
+            "Value": {
+                "id": "63c00762-3f59-4246-8bc0-f995ec2e5461",
+                "resourcePath": "objects\\obj_checkPoint\\obj_checkPoint.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "58950146-a416-477d-b28d-677692d5020e",
             "Value": {
                 "id": "1f6892cf-a3c2-4c8e-9b05-55c92ffa9fd2",
@@ -1031,6 +1063,14 @@
             }
         },
         {
+            "Key": "5d2a154a-1af2-4e13-9eab-16c8e64b8ae2",
+            "Value": {
+                "id": "8e4d19b1-479b-4ed0-8b7d-ddb99502d640",
+                "resourcePath": "sprites\\spr_hiddenUnlockedChar2\\spr_hiddenUnlockedChar2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5dc4baa7-675e-469f-94a7-95b81dc3d536",
             "Value": {
                 "id": "b5265df1-6715-4f9b-a51f-02a7bdc3c0b6",
@@ -1076,6 +1116,14 @@
                 "id": "fba179e1-3fe2-471f-a817-3ff0134001e0",
                 "resourcePath": "sprites\\spr_tutorialButtonPicture\\spr_tutorialButtonPicture.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "62664162-6fb4-4102-b5ca-95d098d8b7fc",
+            "Value": {
+                "id": "dbd4ade7-17a3-4d69-8bb5-3025c30f60f9",
+                "resourcePath": "sounds\\sfx_checkpoint\\sfx_checkpoint.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1295,6 +1343,14 @@
             }
         },
         {
+            "Key": "78c015bd-2329-4f85-9f82-48fd8fdfb297",
+            "Value": {
+                "id": "fe058ddc-5202-4394-bd20-804eb06d283f",
+                "resourcePath": "sounds\\sfx_checkPointDiscovered\\sfx_checkPointDiscovered.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "7ad7cbeb-4b00-420f-b89d-9669d8346c5e",
             "Value": {
                 "id": "1938dcd6-f52d-475d-8c5e-4e0a25a494aa",
@@ -1331,6 +1387,14 @@
             "Value": {
                 "id": "e3867c18-359b-4f40-8ffa-dd4e61bd69c3",
                 "resourcePath": "sprites\\spr_stunShot1\\spr_stunShot1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7df6485e-9fa8-4750-9287-8b6f1abb01b8",
+            "Value": {
+                "id": "673d119c-357b-4f9f-9bce-58853f57cd7f",
+                "resourcePath": "sprites\\spr_unlockedButtonPicture\\spr_unlockedButtonPicture.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1443,6 +1507,14 @@
             "Value": {
                 "id": "b2daba39-80bf-454b-aa0a-7775e83ece55",
                 "resourcePath": "objects\\obj_hiddenCharacter1\\obj_hiddenCharacter1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "864c80a5-5528-41e9-9e50-431047d825c2",
+            "Value": {
+                "id": "b210c013-9064-401c-92c9-e930d45c2340",
+                "resourcePath": "objects\\obj_hiddenChar2\\obj_hiddenChar2.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1903,6 +1975,14 @@
             }
         },
         {
+            "Key": "b098042b-60b4-4af1-8516-08c4071d734f",
+            "Value": {
+                "id": "7bbd5c6c-9485-4053-a924-1914d28aeae8",
+                "resourcePath": "objects\\obj_checkPoint2\\obj_checkPoint2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b0b1bbd7-e901-4564-aaee-f98ca1374dca",
             "Value": {
                 "id": "041ce213-fad5-4c1a-8ef5-4e41b9276894",
@@ -2271,6 +2351,14 @@
             }
         },
         {
+            "Key": "d2271879-4859-43bc-9897-c5d1f750808c",
+            "Value": {
+                "id": "8f03e666-9613-474b-bf62-99ee34ca65d6",
+                "resourcePath": "sprites\\spr_lockedButtonPicture\\spr_lockedButtonPicture.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d23bc585-c199-4df2-b3ec-84cabac4a30e",
             "Value": {
                 "id": "0468ac0d-e615-42ef-98cd-8e0f06eef26a",
@@ -2396,6 +2484,14 @@
                 "id": "a918d887-5d09-46d3-95c4-d8dbcc7ec8c2",
                 "resourcePath": "objects\\obj_controlSelectButton\\obj_controlSelectButton.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "db9286e6-af68-4155-8440-d90977093483",
+            "Value": {
+                "id": "7f3c1578-6612-42f4-b78d-7f6b93aaa5ad",
+                "resourcePath": "sprites\\spr_checkPointLocked\\spr_checkPointLocked.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2692,6 +2788,14 @@
                 "id": "adadb382-78a2-400d-a907-04967987ed6c",
                 "resourcePath": "sprites\\spr_P2Winner\\spr_P2Winner.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f6d72e26-2e56-494c-b94f-140db7689182",
+            "Value": {
+                "id": "709139f6-1902-410b-acf3-7e20d4dd09cf",
+                "resourcePath": "objects\\obj_lockedButtonHidden2\\obj_lockedButtonHidden2.yy",
+                "resourceType": "GMObject"
             }
         },
         {

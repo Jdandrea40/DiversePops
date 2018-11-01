@@ -8,7 +8,9 @@
         "8864cc79-3990-48de-b986-c1f55c94685f",
         "4347b873-ffe8-4741-a058-9c795a86986b",
         "f2a012a2-f315-4e75-8296-1b4fc57052a1",
-        "019ccf4d-ee41-434b-9154-3469553e4d66"
+        "019ccf4d-ee41-434b-9154-3469553e4d66",
+        "5e23113b-63e7-4c98-bf9f-11d2c216e483",
+        "cbe95d18-1b99-442f-b351-0e9128f0f9aa"
     ],
     "filterType": "GMObject",
     "folderName": "SettingsButtons",
