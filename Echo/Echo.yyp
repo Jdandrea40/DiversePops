@@ -119,11 +119,27 @@
             }
         },
         {
+            "Key": "092b1daa-d1bc-4bc9-a899-ed7d2fb3d66a",
+            "Value": {
+                "id": "91aed791-096d-4a2c-8764-f1d626e1fe17",
+                "resourcePath": "objects\\obj_femalePlayStyles\\obj_femalePlayStyles.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "09ce6eff-8bb6-4eea-a164-def298576fdb",
             "Value": {
                 "id": "8ac43c17-3a43-44bc-b204-64d0e93acf3a",
                 "resourcePath": "sprites\\spr_PvP\\spr_PvP.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "0a23a98a-cc58-4642-996c-02fd5ba9e4d4",
+            "Value": {
+                "id": "c2665a20-7a2f-4ae1-9b5d-0e1753125865",
+                "resourcePath": "objects\\obj_femalePlaystyle\\obj_femalePlaystyle.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -364,6 +380,14 @@
                 "id": "13681317-b093-4549-9f97-80f71a0f776d",
                 "resourcePath": "sounds\\sfx_winScreenRead\\sfx_winScreenRead.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "236997a5-4bea-4d01-baf7-d367a7868566",
+            "Value": {
+                "id": "de757890-3eae-4f3f-9f98-dbc28315fd72",
+                "resourcePath": "sprites\\spr_hiddenChar1Descript\\spr_hiddenChar1Descript.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1151,6 +1175,14 @@
             }
         },
         {
+            "Key": "65821700-4cda-4496-a7c4-dfd823a0fd82",
+            "Value": {
+                "id": "84ef872e-e93e-4136-b58c-a1a4ab49dfe5",
+                "resourcePath": "sprites\\spr_femalePlayStylesCredits\\spr_femalePlayStylesCredits.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "664d86ce-29ab-4cc8-b8f8-ae1d17b7e151",
             "Value": {
                 "id": "d9ce07a2-b40b-43fe-a0d0-bad44ffd52f2",
@@ -1767,6 +1799,14 @@
             }
         },
         {
+            "Key": "9d29ee41-01e0-44ba-b898-7bfce7a335d0",
+            "Value": {
+                "id": "e1ffc2de-1613-4bf7-8fa3-00ce45087331",
+                "resourcePath": "sprites\\spr_hiddenChar2Descript\\spr_hiddenChar2Descript.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9d5a8b2c-5e1d-4fa6-a4df-4ed191b9afbb",
             "Value": {
                 "id": "9d01eb24-7d58-4c52-a5d5-926c36956be7",
@@ -2279,6 +2319,14 @@
             }
         },
         {
+            "Key": "cb1fccb8-1b6e-4202-beeb-fe4eea6d7db0",
+            "Value": {
+                "id": "cb25d11e-a37f-4238-9525-79a7ce9b220e",
+                "resourcePath": "rooms\\rm_FemalePlaystyles\\rm_FemalePlaystyles.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "cbe95d18-1b99-442f-b351-0e9128f0f9aa",
             "Value": {
                 "id": "b8351373-b353-4858-8b08-3a05e170a126",
@@ -2583,6 +2631,14 @@
             }
         },
         {
+            "Key": "e0ce1d72-319c-49d1-b80a-1bb21b8a465b",
+            "Value": {
+                "id": "f5777718-8830-4632-ae91-57027d7faeee",
+                "resourcePath": "objects\\obj_hiddenChar1Text\\obj_hiddenChar1Text.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e162c773-e60d-4610-9f75-b7b41670eb5f",
             "Value": {
                 "id": "e47bd4cf-a439-41a3-93f3-ea67fe37236d",
@@ -2711,6 +2767,14 @@
             }
         },
         {
+            "Key": "ef4a1b9c-0842-4de9-bc8b-c74a3cb8929e",
+            "Value": {
+                "id": "085c76b8-0280-4d28-9c3c-40707d02904f",
+                "resourcePath": "objects\\obj_hiddenChar2Text\\obj_hiddenChar2Text.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "efaf88b0-b881-4d75-beeb-c1a82272b1d6",
             "Value": {
                 "id": "ab81f96e-2694-41df-b1ee-b4ddca05b6cb",
@@ -2763,6 +2827,14 @@
             "Value": {
                 "id": "2dd519fd-87f8-4814-9745-b920da900c94",
                 "resourcePath": "sprites\\spr_coopWalls\\spr_coopWalls.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f3738e25-b133-4300-9cdc-34045cf82eb0",
+            "Value": {
+                "id": "e9147100-8e41-44af-84fa-9732ba55cdf6",
+                "resourcePath": "sprites\\spr_femalePlaystyles\\spr_femalePlaystyles.yy",
                 "resourceType": "GMSprite"
             }
         },
