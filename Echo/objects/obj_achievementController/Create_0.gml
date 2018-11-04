@@ -1,5 +1,12 @@
 global.chests = 0;
 
+// Quest support
+global.questComplete = false;
+global.showQuest = false;
+global.friendFound = false;
+global.friendFollow = false;
+
+// Found Change Support
 if (global.impactFont == true)
 {
 	draw_set_font(fnt_Impact_15)
@@ -8,6 +15,7 @@ else if (global.comicSansFont == true)
 {
 	draw_set_font(fnt_ComicSans_15)
 }
+
 // Achievements
 chestAchieveActive = false;
 playAchieveRead = true;

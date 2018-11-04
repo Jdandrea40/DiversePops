@@ -2,6 +2,25 @@
 draw_set_color(c_white);
 draw_text(64, 32, "Chests collected: " + string(global.chests)
 		+ "/" + string(chestCount));
+
+// draws quest objective on screen
+if (global.showQuest == true)
+{
+	draw_set_color(c_yellow)
+	draw_text(430, 32, "OPTIONAL QUESTS:");
+	
+	if (global.friendFound == false)
+	{		
+		draw_set_color(c_yellow)
+		draw_text(400, 52, "Find the strangers Friend");
+	}	
+	else if (global.friendFound == true)
+	{
+		draw_set_color(c_green)
+		draw_text(400, 52, "Return to the stranger or find the exit");
+	}
+}
+
 	
 
 // Displays Acheivement for collecting all chests
@@ -15,8 +34,7 @@ if(global.chestAchieve = true && chestAchieveActive = false)
 	}
 }
 
-// draws ammo remain
-draw_text(64, 52, "Ammo Remaining: " + string (global.p1AmmoCount));
+
 
 // Changes color based on amount left
 if (global.p1AmmoCount < 1)
@@ -28,6 +46,12 @@ else if (global.p1AmmoCount < 3)
 {
 	draw_set_color(c_yellow)
 	draw_text(64, 52, "Ammo Remaining: " + string (global.p1AmmoCount));
+}
+else
+{
+	// draws ammo remain
+	draw_text(64, 52, "Ammo Remaining: " + string (global.p1AmmoCount));
+	draw_set_color(c_white)
 }
 
 if (global.subtitlesOn == true)

@@ -10,8 +10,7 @@ if (global.tutorialActivated = true)
 			checkPointText = instance_create_layer(viewMidWidth, viewHeightMid, "Text", obj_textBox);
 			checkPointText.text = textArray;
 		}
-		global.checkPointFoundMessage = false;
-		
+		global.checkPointFirstFoundMessage = false;	
 	}
 }
 

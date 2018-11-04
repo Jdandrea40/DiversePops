@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "13adcc9d-e140-4d81-9036-9c3c6d30acad",
+            "Value": {
+                "id": "340810b7-3f6c-4b95-89ce-79f2475b36eb",
+                "resourcePath": "sprites\\spr_NPCFriend\\spr_NPCFriend.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "144afaa7-33ee-4056-b562-a050157a385a",
             "Value": {
                 "id": "f1194389-9769-4ed3-8f2d-34d3e5dd3e1b",
@@ -575,6 +583,14 @@
             }
         },
         {
+            "Key": "35c1f8c1-3ca5-4ece-9a96-cc8089265def",
+            "Value": {
+                "id": "8a582fd8-9e9c-404f-98e2-2f7e6fa03d82",
+                "resourcePath": "objects\\obj_NPCFSpawner\\obj_NPCFSpawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "374a2ca2-d439-4df3-afcf-4adaf4c47fed",
             "Value": {
                 "id": "9e7f6ef3-94d5-4798-8c16-872ab5d9783a",
@@ -684,6 +700,14 @@
                 "id": "0e2431cc-9a05-43a8-ab86-5189535fdadf",
                 "resourcePath": "sounds\\sfx_obj_controlSelectButton\\sfx_obj_controlSelectButton.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "3caa86e0-4acd-4f4e-bc1e-5ab75269e626",
+            "Value": {
+                "id": "db11c02e-b3e0-43f7-8b54-7a630e4ffec1",
+                "resourcePath": "objects\\obj_NPCFriend\\obj_NPCFriend.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1395,6 +1419,14 @@
             "Value": {
                 "id": "673d119c-357b-4f9f-9bce-58853f57cd7f",
                 "resourcePath": "sprites\\spr_unlockedButtonPicture\\spr_unlockedButtonPicture.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7e782d02-420d-477d-a822-4661dde1ca7d",
+            "Value": {
+                "id": "06dec54e-3d07-4dce-8092-bf8153310668",
+                "resourcePath": "sprites\\spr_NPC\\spr_NPC.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2804,6 +2836,14 @@
                 "id": "f032d359-168e-41d2-8c2a-5713fab7b758",
                 "resourcePath": "sounds\\sfx_obj_helpButton\\sfx_obj_helpButton.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "f741b808-3c85-4287-a6ec-e4edd9346cad",
+            "Value": {
+                "id": "6d998da5-8ae7-40f0-af67-695dc827ff42",
+                "resourcePath": "objects\\obj_NPC\\obj_NPC.yy",
+                "resourceType": "GMObject"
             }
         },
         {

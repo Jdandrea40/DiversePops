@@ -1,0 +1,1 @@
+global.questActive = false;

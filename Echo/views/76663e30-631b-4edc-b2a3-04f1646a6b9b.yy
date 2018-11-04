@@ -14,7 +14,8 @@
         "0ec983d9-622d-46e7-86c7-0ad93b261355",
         "7ca61d3f-3bea-4bbd-be8b-26ac6d509c03",
         "82e856f6-2c46-4d76-a539-f8773bead75a",
-        "3eb6b44d-5b9f-4751-a3ea-40131a539839"
+        "3eb6b44d-5b9f-4751-a3ea-40131a539839",
+        "35c1f8c1-3ca5-4ece-9a96-cc8089265def"
     ],
     "filterType": "GMObject",
     "folderName": "RoomObjects",
