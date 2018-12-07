@@ -2,7 +2,7 @@
 {
     "name": "rm_ControllerStyleSelect",
     "id": "448e63aa-9cea-4c8f-936a-83e63a9a1bf7",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

@@ -50,7 +50,7 @@ if (global.controlChoice = 1 )
 
 		// killShot creation
 		if (mouse_check_button(mb_left) && global.p1AmmoCount > 0 &&
-		stunCooldown< 1 && global.textBoxActive == false)
+		stunCooldown < 1 && global.textBoxActive == false && global.coOp = false)
 		{
 			if (global.shootSFXOn == true)
 			{

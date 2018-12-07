@@ -2,6 +2,7 @@
 blindModeTimer = 30;
 blindModeCue = true;
 global.blindModeActivated = false;
+global.coOp = false;
 
 // Micro Transactions
 global.characterSelect = 1;

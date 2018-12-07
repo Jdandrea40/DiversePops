@@ -1,0 +1,1 @@
+global.coOp = false;
